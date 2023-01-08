@@ -78,7 +78,6 @@ def main():
     print("------------------------------------------")
 
     app = App()
-
     app.databaseService.close()
 
 

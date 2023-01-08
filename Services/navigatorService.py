@@ -1044,6 +1044,7 @@ class NavigatorService:
             
             for passenger in passengerInfo:
                 if passenger.ageCategory == 'Infant':
+                    print(f'\t{passenger.first_name} {passenger.last_name} is infant, so they will sit with an adult.')
                     selected_seats[flight][passenger] = adultSeats[0]
                     adultSeats.pop(0)
                     continue
@@ -1096,7 +1097,7 @@ class NavigatorService:
             for passenger in passengerInfo:
                 if passenger.ageCategory != 'Infant':
                     selected_luggage[flight][passenger] = []
-            print(f"\n\tLuggage policy for flight {flight.departure_airport_code}-{flight.arrival_airport_code}:")
+            print(f"\n\tLuggage policy for flight {flight.departure_airport_code}-{flight.arrival_airport_code}, for fare {fareSelection[flight].fare_name}:")
             if "1 carry-on bag up to 8kg or 1 personal item" in fareSelection[flight].amenities or "1 carry-on bag up to 8kg and 1 personal item" in fareSelection[flight].amenities:
                 print(f"\tYou have one free carry-on bag up to 8kg.")
                 for passenger in passengerInfo:
@@ -1274,7 +1275,7 @@ class NavigatorService:
             else:
                 print(f"\nSelected {'seats' if len(seatSelection[flight]) > 1 else 'seat'}:")
             for passenger in seatSelection[flight]:
-                if seatSelection[flight][passenger] is None:
+                if passenger.ageCategory == 'Infant':
                     print(f"-\t{passenger.first_name} {passenger.last_name} is infant, so they will sit with an adult.")
                 else:
                     print(f"-\t{passenger.first_name} {passenger.last_name}:\tSeat {seatSelection[flight][passenger].seat_number.lstrip('0').rjust(3)}")
@@ -1306,19 +1307,6 @@ class NavigatorService:
         if not response:
             return False
         
-        for flight in tickets:
-            for passenger in tickets[flight]:
-                response = self.app.databaseService.saveTicket(tickets[flight][passenger])
-                if not response:
-                    return False
-
-        if returnTickets is not None:
-            for flight in returnTickets:
-                for passenger in returnTickets[flight]:
-                    response = self.app.databaseService.saveTicket(returnTickets[flight][passenger])
-                    if not response:
-                        return False
-        
         for flight in seatSelection:
             for passenger in seatSelection[flight]:
                 if passenger.ageCategory != 'Infant':
@@ -1331,6 +1319,19 @@ class NavigatorService:
                 for passenger in returnSeatSelection[flight]:
                     if passenger.ageCategory != 'Infant':
                         response = self.app.databaseService.saveTakenSeat(returnSeatSelection[flight][passenger])
+                    if not response:
+                        return False
+        
+        for flight in tickets:
+            for passenger in tickets[flight]:
+                response = self.app.databaseService.saveTicket(tickets[flight][passenger])
+                if not response:
+                    return False
+
+        if returnTickets is not None:
+            for flight in returnTickets:
+                for passenger in returnTickets[flight]:
+                    response = self.app.databaseService.saveTicket(returnTickets[flight][passenger])
                     if not response:
                         return False
         
@@ -1385,7 +1386,10 @@ class NavigatorService:
                             print(", ".join(self.app.cities[minIndex-1:maxIndex]))
                             print(f"\nShowing cities {minIndex}-{maxIndex}.")
                             print("Press Enter to show more.")
-                            input()
+                            userInput = input()
+
+                            if userInput == '*':
+                                break
                             if maxIndex != len(self.app.cities)+1:
                                 minIndex = maxIndex
                                 continue

@@ -3,7 +3,8 @@ import sys
 
 class DatabaseService:
     def __init__(self):
-        self.conn = sqlite3.connect('DBPrep\\test.db')
+        self.conn = sqlite3.connect('Data\\FlyNowDatabase.db')
+        self.conn.execute("PRAGMA foreign_keys=ON")
 
     def close(self):
         self.conn.close()
@@ -437,24 +438,20 @@ class DatabaseService:
         """)
     
     def savePassenger(self, passenger):
-        self.conn.execute(f"""
+        query = f"""
             INSERT OR REPLACE INTO "PASSENGER" VALUES
             ("{passenger.passenger_ID}", "{passenger.first_name}", "{passenger.last_name}", "{passenger.age}", {f'"{passenger.phone_number}"' if passenger.phone_number is not None else "NULL"}, {f'"{passenger.email}"' if passenger.email is not None else "NULL"});
-        """)
+
+        """
+        self.conn.execute(query)
         return True
 
     def saveBooking(self, booking):
-        self.conn.execute(f"""
+        query = f"""
             INSERT INTO "BOOKING" VALUES
             ("{booking.booking_code}", "{booking.booking_date.strftime('%Y-%m-%d %H:%M:%S')}", "{booking.total_price}", "{booking.main_passenger_ID}");
-        """)
-        return True
-    
-    def saveTicket(self, ticket):
-        self.conn.execute(f"""
-            INSERT INTO "TICKET" VALUES
-            ("{ticket.ticket_ID}", "{ticket.price}", "{ticket.seat_number}", "{ticket.flight_number}", "{ticket.departure_datetime}", "{ticket.passenger_ID}", "{ticket.booking_code}", "{ticket.fare_name}", "{ticket.airline_ID}");
-        """)
+        """
+        self.conn.execute(query)
         return True
     
     def saveTakenSeat(self, takenSeat):
@@ -467,6 +464,14 @@ class DatabaseService:
             SET available_seats = available_seats - 1
             WHERE flight_number = "{takenSeat.flight_number}" AND "{str(takenSeat.departure_datetime)}";
         """)
+        return True
+
+    def saveTicket(self, ticket):
+        query = f"""
+            INSERT INTO "TICKET" VALUES
+            ("{ticket.ticket_ID}", "{ticket.price}", "{ticket.seat_number}", "{ticket.flight_number}", "{str(ticket.departure_datetime)}", "{ticket.passenger_ID}", "{ticket.booking_code}", "{ticket.fare_name}", "{ticket.airline_ID}");
+        """
+        self.conn.execute(query)
         return True
     
     def saveLuggage(self, luggage):

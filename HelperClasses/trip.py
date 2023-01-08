@@ -21,9 +21,7 @@ class Trip:
         print(f'{index:2d}.', end='\t')
 
         print(self.flights[0].departure_airport_code, end=' ')
-        # departure_datetime_local = pytz.utc.normalize(pytz.utc.localize(self.flights[0].departure_datetime)).astimezone(pytz.timezone(self.airports[0].location.time_zone))
         print(self.flights[0].departure_datetime_local.strftime('%Y-%m-%d %H:%M'), end=' > ')
-        # arrival_datetime_local = pytz.utc.normalize(pytz.utc.localize(self.flights[-1].arrival_datetime)).astimezone(pytz.timezone(self.airports[1].location.time_zone))
         print(self.flights[-1].arrival_datetime_local.strftime('%Y-%m-%d %H:%M'), end=' ')
         print(self.flights[-1].arrival_airport_code, end=' -- ')
         print(f'{self.totalPrice:.2f}€', end='')

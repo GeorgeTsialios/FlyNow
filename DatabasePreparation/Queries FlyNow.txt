@@ -1,0 +1,645 @@
+---------------------------------------------
+ΑΠΕΥΘΕΙΑΣ
+---------------------------------------------
+
+SELECT 
+	   flight_number,
+	   departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   departure_datetime,
+	   arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   arrival_datetime,
+	   available_seats,
+	   airline_name,
+	   duration AS duration_MIN,
+	   base_price
+	   
+FROM 			
+				(		
+						(
+						 FLIGHT JOIN AIRPORT AS DEPARTURE_AIRPORT ON departure_airport_code = DEPARTURE_AIRPORT.airport_code
+						) 
+				JOIN AIRPORT AS ARRIVAL_AIRPORT ON arrival_airport_code = ARRIVAL_AIRPORT.airport_code
+				) 
+	   NATURAL JOIN AIRLINE
+
+WHERE  
+	   DEPARTURE_AIRPORT.city = 'Athens' 			 AND 
+	   ARRIVAL_AIRPORT.city = 'Barcelona' 			 AND 
+	   departure_datetime LIKE '2023-03-20 __:__:__'       AND 
+	   available_seats > 0
+	   
+ORDER BY base_price,departure_datetime;
+
+
+
+
+/// ΔΕΥΤΕΡΕΥΟΝΤΑ ΦΙΛΤΡΑ ///
+
+ airline_name = 'AEGEAN' 			     AND 
+ departure_datetime LIKE '2023-03-__ __:__:__' AND  --για ολόκληρο τον Μάρτιο
+ base_price < 100																		 AND
+ ARRIVAL_AIRPORT.country = '...'															 AND
+ ARRIVAL_AIRPORT.airport_code = '___'														 AND
+
+
+||| ΑΝΑΖΗΤΗΣΗ ΜΕ REGION |||
+
+SELECT 
+	   flight_number,
+	   departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   departure_datetime,
+	   arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   arrival_datetime,
+	   available_seats,
+	   airline_name,
+	   duration AS duration_MIN,
+	   base_price
+	   
+FROM 			
+		  (
+				(		
+						(
+						 FLIGHT JOIN AIRPORT AS DEPARTURE_AIRPORT ON departure_airport_code = DEPARTURE_AIRPORT.airport_code
+						) 
+				JOIN AIRPORT AS ARRIVAL_AIRPORT ON arrival_airport_code = ARRIVAL_AIRPORT.airport_code
+				) 
+	   	   NATURAL JOIN AIRLINE
+		  )
+	   JOIN LOCATION ON (ARRIVAL_AIRPORT.city = LOCATION.city AND ARRIVAL_AIRPORT.country = LOCATION.country)
+
+WHERE    
+	   DEPARTURE_AIRPORT.city = 'Athens' 			 AND 
+	   region = 'Western Europe'		             	 AND
+	   departure_datetime LIKE '2023-03-20 __:__:__'       AND 
+	   available_seats > 0
+	   
+ORDER BY base_price,departure_datetime;
+
+
+
+
+---------------------------------------------
+ME 1 ΣΤΑΣΗ
+---------------------------------------------
+
+
+
+SELECT 
+	   FLIGHT_1.flight_number AS flight_1_number, 
+	   FLIGHT_1.departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   FLIGHT_1.departure_datetime AS flight_1_departure_datetime,
+	   FLIGHT_1.arrival_airport_code AS intermediate_airport_code,
+	   INTERMEDIATE_AIRPORT.city AS intermediate_city,
+	   FLIGHT_1.arrival_datetime AS flight_1_arrival_datetime,
+	   FLIGHT_1.available_seats AS flight_1_available_seats,
+	   AIRLINE_1.airline_name AS flight_1_airline_name,
+
+	   FLIGHT_2.flight_number AS flight_2_number,
+	   FLIGHT_2.departure_airport_code AS intermediate_airport_code,
+	   INTERMEDIATE_AIRPORT.city AS intermediate_city,
+	   FLIGHT_2.departure_datetime AS flight_2_departure_datetime, 
+	   FLIGHT_2.arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   FLIGHT_2.arrival_datetime AS flight_2_arrival_datetime,
+	   FLIGHT_2.available_seats AS flight_2_available_seats,
+	   AIRLINE_2.airline_name AS flight_2_airline_name,
+
+	   ROUND(((julianday(FLIGHT_2.arrival_datetime) - julianday(FLIGHT_1.departure_datetime)) * 24), 2) AS total_duration_HOURS, 
+	   FLIGHT_1.base_price + FLIGHT_2.base_price AS Total_price
+	   
+
+FROM 
+	(
+		   (		
+					(		
+						         (				
+										(
+										 FLIGHT AS FLIGHT_1 JOIN AIRPORT AS DEPARTURE_AIRPORT ON  FLIGHT_1.departure_airport_code = DEPARTURE_AIRPORT.airport_code
+										)
+								JOIN AIRPORT AS INTERMEDIATE_AIRPORT ON FLIGHT_1.arrival_airport_code = INTERMEDIATE_AIRPORT.airport_code
+							   )
+					 JOIN FLIGHT AS FLIGHT_2 ON FLIGHT_1.arrival_airport_code = FLIGHT_2.departure_airport_code
+					) 
+			JOIN AIRPORT AS ARRIVAL_AIRPORT ON FLIGHT_2.arrival_airport_code = ARRIVAL_AIRPORT.airport_code
+		   )
+	 JOIN AIRLINE AS AIRLINE_1 ON FLIGHT_1.airline_ID = AIRLINE_1.airline_ID
+	)
+  JOIN AIRLINE AS AIRLINE_2 ON FLIGHT_2.airline_ID = AIRLINE_2.airline_ID
+
+WHERE 
+	   DEPARTURE_AIRPORT.city = 'Athens' 													 								AND 
+	   ARRIVAL_AIRPORT.city = 'Barcelona' 													 								AND 
+	   FLIGHT_1.departure_datetime LIKE '2023-03-20 __:__:__' 								            					                  AND 
+	   ROUND(((julianday(FLIGHT_2.departure_datetime) - julianday(FLIGHT_1.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	                                          AND
+	   FLIGHT_1.available_seats > 0 													                					            AND 
+	   FLIGHT_2.available_seats > 0
+	   
+ ORDER BY total_duration_HOURS,Total_price,FLIGHT_2.arrival_datetime;
+
+
+
+
+
+/// ΔΕΥΤΕΡΕΥΟΝΤΑ ΦΙΛΤΡΑ ///
+
+
+ AIRLINE_1.airline_ID =  AIRLINE_2.airline_ID	AND AIRLINE_1.name = 'AEGEAN'								 AND
+ FLIGHT_1.departure_datetime LIKE '2023-03-__ __:__:__' 								                   AND    -- για ολόκληρο τον Μάρτιο
+ FLIGHT_1.base_price + FLIGHT_2.base_price < 100												 AND
+ ARRIVAL_AIRPORT.country = '...'															 AND
+ ARRIVAL_AIRPORT.airport_code = '___'														 AND
+
+
+
+||| ΑΝΑΖΗΤΗΣΗ ΜΕ REGION |||
+
+SELECT 
+	   FLIGHT_1.flight_number AS flight_1_number, 
+	   FLIGHT_1.departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   FLIGHT_1.departure_datetime AS flight_1_departure_datetime,
+	   FLIGHT_1.arrival_airport_code AS intermediate_airport_code,
+	   INTERMEDIATE_AIRPORT.city AS intermediate_city,
+	   FLIGHT_1.arrival_datetime AS flight_1_arrival_datetime,
+	   FLIGHT_1.available_seats AS flight_1_available_seats,
+	   AIRLINE_1.airline_name AS flight_1_airline_name,
+
+	   FLIGHT_2.flight_number AS flight_2_number,
+	   FLIGHT_2.departure_airport_code AS intermediate_airport_code,
+	   INTERMEDIATE_AIRPORT.city AS intermediate_city,
+	   FLIGHT_2.departure_datetime AS flight_2_departure_datetime, 
+	   FLIGHT_2.arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   FLIGHT_2.arrival_datetime AS flight_2_arrival_datetime,
+	   FLIGHT_2.available_seats AS flight_2_available_seats,
+	   AIRLINE_2.airline_name AS flight_2_airline_name,
+
+	   ROUND(((julianday(FLIGHT_2.arrival_datetime) - julianday(FLIGHT_1.departure_datetime)) * 24), 2) AS total_duration_HOURS, 
+	   FLIGHT_1.base_price + FLIGHT_2.base_price AS Total_price
+	   
+
+FROM 
+	 (
+                 (
+		               (		
+					       (		
+						             (				
+										(
+										 FLIGHT AS FLIGHT_1 JOIN AIRPORT AS DEPARTURE_AIRPORT ON  FLIGHT_1.departure_airport_code = DEPARTURE_AIRPORT.airport_code
+										)
+								  JOIN AIRPORT AS INTERMEDIATE_AIRPORT ON FLIGHT_1.arrival_airport_code = INTERMEDIATE_AIRPORT.airport_code
+							       )
+					        JOIN FLIGHT AS FLIGHT_2 ON FLIGHT_1.arrival_airport_code = FLIGHT_2.departure_airport_code
+					        ) 
+			          JOIN AIRPORT AS ARRIVAL_AIRPORT ON FLIGHT_2.arrival_airport_code = ARRIVAL_AIRPORT.airport_code
+		               )
+	           JOIN AIRLINE AS AIRLINE_1 ON FLIGHT_1.airline_ID = AIRLINE_1.airline_ID
+	          )
+         JOIN AIRLINE AS AIRLINE_2 ON FLIGHT_2.airline_ID = AIRLINE_2.airline_ID
+        )
+  JOIN LOCATION ON (ARRIVAL_AIRPORT.city = LOCATION.city AND ARRIVAL_AIRPORT.country = LOCATION.country)
+
+WHERE 
+	   DEPARTURE_AIRPORT.city = 'Athens' 													 								AND 
+	   region = 'Western Europe'															 										AND
+	   FLIGHT_1.departure_datetime LIKE '2023-03-20 __:__:__' 								            					                  AND 
+	   ROUND(((julianday(FLIGHT_2.departure_datetime) - julianday(FLIGHT_1.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	                                          AND
+	   FLIGHT_1.available_seats > 0 													                					            AND 
+	   FLIGHT_2.available_seats > 0
+	   
+ ORDER BY total_duration_HOURS,Total_price,FLIGHT_2.arrival_datetime;
+
+
+
+---------------------------------------------
+ME 2 ΣΤΑΣEΙΣ
+---------------------------------------------
+
+
+
+SELECT 
+	   FLIGHT_1.flight_number AS flight_1_number, 
+	   FLIGHT_1.departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   FLIGHT_1.departure_datetime AS flight_1_departure_datetime,
+	   FLIGHT_1.arrival_airport_code AS intermediate_airport_1_code,
+	   INTERMEDIATE_AIRPORT_1.city AS intermediate_1_city,
+	   FLIGHT_1.arrival_datetime AS flight_1_arrival_datetime,
+	   FLIGHT_1.available_seats AS flight_1_available_seats,
+	   AIRLINE_1.airline_name AS flight_1_airline_name,
+
+	   FLIGHT_2.flight_number AS flight_2_number,
+	   FLIGHT_2.departure_airport_code AS intermediate_airport_1_code,
+	   INTERMEDIATE_AIRPORT_1.city AS intermediate_1_city,
+	   FLIGHT_2.departure_datetime AS flight_2_departure_datetime, 
+	   FLIGHT_2.arrival_airport_code AS intermediate_airport_2_code,
+	   INTERMEDIATE_AIRPORT_2.city AS intermediate_2_city,
+	   FLIGHT_2.arrival_datetime AS flight_2_arrival_datetime,
+	   FLIGHT_2.available_seats AS flight_2_available_seats,
+	   AIRLINE_2.airline_name AS flight_2_airline_name,
+	   
+	   FLIGHT_3.flight_number AS flight_3_number,
+	   FLIGHT_3.departure_airport_code AS intermediate_airport_2_code,
+	   INTERMEDIATE_AIRPORT_2.city AS intermediate_2_city,
+	   FLIGHT_3.departure_datetime AS flight_3_departure_datetime, 
+	   FLIGHT_3.arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   FLIGHT_3.arrival_datetime AS flight_3_arrival_datetime,
+	   FLIGHT_3.available_seats AS flight_3_available_seats,
+	   AIRLINE_3.airline_name AS flight_3_airline_name,
+
+	   ROUND(((julianday(FLIGHT_3.arrival_datetime) - julianday(FLIGHT_1.departure_datetime)) * 24), 2) AS total_duration_HOURS, 
+	   FLIGHT_1.base_price + FLIGHT_2.base_price + FLIGHT_3.base_price AS Total_price
+	   
+
+FROM          
+			(
+				   (
+						   (
+								   (
+										   (		
+													(		  
+															   (		
+																		(
+																		 FLIGHT AS FLIGHT_1 JOIN AIRPORT AS DEPARTURE_AIRPORT ON  FLIGHT_1.departure_airport_code = DEPARTURE_AIRPORT.airport_code
+																		)
+																JOIN AIRPORT AS INTERMEDIATE_AIRPORT_1 ON FLIGHT_1.arrival_airport_code = INTERMEDIATE_AIRPORT_1.airport_code
+															   )
+													 JOIN FLIGHT AS FLIGHT_2 ON FLIGHT_1.arrival_airport_code = FLIGHT_2.departure_airport_code
+													) 
+											JOIN AIRPORT AS INTERMEDIATE_AIRPORT_2 ON FLIGHT_2.arrival_airport_code = INTERMEDIATE_AIRPORT_2.airport_code
+										   )
+									JOIN FLIGHT AS FLIGHT_3 ON FLIGHT_2.arrival_airport_code = FLIGHT_3.departure_airport_code  
+								   )
+							JOIN AIRPORT AS ARRIVAL_AIRPORT ON FLIGHT_3.arrival_airport_code = ARRIVAL_AIRPORT.airport_code 
+						   )		 
+					 JOIN AIRLINE AS AIRLINE_1 ON FLIGHT_1.airline_ID = AIRLINE_1.airline_ID
+					)				
+			  JOIN AIRLINE AS AIRLINE_2 ON FLIGHT_2.airline_ID = AIRLINE_2.airline_ID
+			 )
+	   JOIN AIRLINE AS AIRLINE_3 ON FLIGHT_3.airline_ID = AIRLINE_3.airline_ID
+	
+WHERE 
+	   DEPARTURE_AIRPORT.city = 'Athens' 													 	    	   AND 
+	   ARRIVAL_AIRPORT.city = 'Barcelona' 													        	   AND 
+	   FLIGHT_1.departure_datetime LIKE '2023-03-20 __:__:__' 								        			   AND 
+	   ROUND(((julianday(FLIGHT_2.departure_datetime) - julianday(FLIGHT_1.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	         AND	   
+         ROUND(((julianday(FLIGHT_3.departure_datetime) - julianday(FLIGHT_2.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	         AND	   
+         FLIGHT_1.available_seats > 0 														               AND 
+	   FLIGHT_2.available_seats > 0															         AND
+	   FLIGHT_3.available_seats > 0																   AND
+	   INTERMEDIATE_AIRPORT_1.city != ARRIVAL_AIRPORT.city												   AND
+	   INTERMEDIATE_AIRPORT_2.city != DEPARTURE_AIRPORT.city
+															
+
+
+ORDER BY total_duration_HOURS,Total_price,FLIGHT_3.arrival_datetime;
+
+
+
+
+/// ΔΕΥΤΕΡΕΥΟΝΤΑ ΦΙΛΤΡΑ ///
+
+
+ AIRLINE_1.airline_ID =  AIRLINE_2.airline_ID AND AIRLINE_2.airline_ID =  AIRLINE_3.airline_ID	AND AIRLINE_1.name = 'AEGEAN'			AND
+ FLIGHT_1.departure_datetime LIKE '2023-03-__ __:__:__' 								                                    AND    -- για ολόκληρο τον Μάρτιο
+ FLIGHT_1.base_price + FLIGHT_2.base_price + FLIGHT_3.base_price < 100												AND
+ ARRIVAL_AIRPORT.country = '...'																	      AND
+ ARRIVAL_AIRPORT.airport_code = '___'														                  AND
+
+
+||| ΑΝΑΖΗΤΗΣΗ ΜΕ REGION |||
+
+SELECT 
+	   FLIGHT_1.flight_number AS flight_1_number, 
+	   FLIGHT_1.departure_airport_code,
+	   DEPARTURE_AIRPORT.city AS departure_city,
+	   FLIGHT_1.departure_datetime AS flight_1_departure_datetime,
+	   FLIGHT_1.arrival_airport_code AS intermediate_airport_1_code,
+	   INTERMEDIATE_AIRPORT_1.city AS intermediate_1_city,
+	   FLIGHT_1.arrival_datetime AS flight_1_arrival_datetime,
+	   FLIGHT_1.available_seats AS flight_1_available_seats,
+	   AIRLINE_1.airline_name AS flight_1_airline_name,
+
+	   FLIGHT_2.flight_number AS flight_2_number,
+	   FLIGHT_2.departure_airport_code AS intermediate_airport_1_code,
+	   INTERMEDIATE_AIRPORT_1.city AS intermediate_1_city,
+	   FLIGHT_2.departure_datetime AS flight_2_departure_datetime, 
+	   FLIGHT_2.arrival_airport_code AS intermediate_airport_2_code,
+	   INTERMEDIATE_AIRPORT_2.city AS intermediate_2_city,
+	   FLIGHT_2.arrival_datetime AS flight_2_arrival_datetime,
+	   FLIGHT_2.available_seats AS flight_2_available_seats,
+	   AIRLINE_2.airline_name AS flight_2_airline_name,
+	   
+	   FLIGHT_3.flight_number AS flight_3_number,
+	   FLIGHT_3.departure_airport_code AS intermediate_airport_2_code,
+	   INTERMEDIATE_AIRPORT_2.city AS intermediate_2_city,
+	   FLIGHT_3.departure_datetime AS flight_3_departure_datetime, 
+	   FLIGHT_3.arrival_airport_code,
+	   ARRIVAL_AIRPORT.city AS arrival_city,
+	   FLIGHT_3.arrival_datetime AS flight_3_arrival_datetime,
+	   FLIGHT_3.available_seats AS flight_3_available_seats,
+	   AIRLINE_3.airline_name AS flight_3_airline_name,
+
+	   ROUND(((julianday(FLIGHT_3.arrival_datetime) - julianday(FLIGHT_1.departure_datetime)) * 24), 2) AS total_duration_HOURS, 
+	   FLIGHT_1.base_price + FLIGHT_2.base_price + FLIGHT_3.base_price AS Total_price
+	   
+
+FROM          
+         (
+			(
+				   (
+						   (
+								   (
+										   (		
+													(		  
+															   (		
+																		(
+																		 FLIGHT AS FLIGHT_1 JOIN AIRPORT AS DEPARTURE_AIRPORT ON  FLIGHT_1.departure_airport_code = DEPARTURE_AIRPORT.airport_code
+																		)
+																JOIN AIRPORT AS INTERMEDIATE_AIRPORT_1 ON FLIGHT_1.arrival_airport_code = INTERMEDIATE_AIRPORT_1.airport_code
+															   )
+													 JOIN FLIGHT AS FLIGHT_2 ON FLIGHT_1.arrival_airport_code = FLIGHT_2.departure_airport_code
+													) 
+											JOIN AIRPORT AS INTERMEDIATE_AIRPORT_2 ON FLIGHT_2.arrival_airport_code = INTERMEDIATE_AIRPORT_2.airport_code
+										   )
+									JOIN FLIGHT AS FLIGHT_3 ON FLIGHT_2.arrival_airport_code = FLIGHT_3.departure_airport_code  
+								   )
+							JOIN AIRPORT AS ARRIVAL_AIRPORT ON FLIGHT_3.arrival_airport_code = ARRIVAL_AIRPORT.airport_code 
+						   )		 
+					 JOIN AIRLINE AS AIRLINE_1 ON FLIGHT_1.airline_ID = AIRLINE_1.airline_ID
+					)				
+			  JOIN AIRLINE AS AIRLINE_2 ON FLIGHT_2.airline_ID = AIRLINE_2.airline_ID
+			 )
+	    JOIN AIRLINE AS AIRLINE_3 ON FLIGHT_3.airline_ID = AIRLINE_3.airline_ID
+	   )
+     JOIN LOCATION ON (ARRIVAL_AIRPORT.city = LOCATION.city AND ARRIVAL_AIRPORT.country = LOCATION.country)
+	
+WHERE 
+	   DEPARTURE_AIRPORT.city = 'Athens' 													 	    	   AND 
+         region = 'Western Europe'															                  	   AND
+	   FLIGHT_1.departure_datetime LIKE '2023-03-20 __:__:__' 								        			   AND 
+	   ROUND(((julianday(FLIGHT_2.departure_datetime) - julianday(FLIGHT_1.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	         AND	   
+         ROUND(((julianday(FLIGHT_3.departure_datetime) - julianday(FLIGHT_2.arrival_datetime)) * 24), 2) BETWEEN 1 AND 6 	         AND	   
+         FLIGHT_1.available_seats > 0 														               AND 
+	   FLIGHT_2.available_seats > 0															         AND
+	   FLIGHT_3.available_seats > 0																   AND
+	   INTERMEDIATE_AIRPORT_1.city != ARRIVAL_AIRPORT.city												   AND
+	   INTERMEDIATE_AIRPORT_2.city != DEPARTURE_AIRPORT.city
+															
+
+
+ORDER BY total_duration_HOURS,Total_price,FLIGHT_3.arrival_datetime;
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+														ΚΡΑΤΗΣΗ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+-------------------------------------
+TIMH ΕΙΣΙΤΗΡΙΟΥ 
+-------------------------------------
+
+
+												//// ΓΙΑ ΕΝΗΛΙΚΑ ///
+
+
+/// ΧΩΡΙΣ ΒΑΛΙΤΣΑ ///
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * base_price ,2) AS price
+
+FROM 
+						(
+						 FLIGHT NATURAL JOIN FARE 
+						) 
+				 NATURAL JOIN AIRLINE
+				
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    
+
+
+
+/// ME 1 ΒΑΛΙΤΣΑ ///
+
+
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * base_price + LUGGAGE_1.cost,2) AS price
+
+FROM 
+				(
+						(
+						 FLIGHT NATURAL JOIN FARE 
+						) 
+				 NATURAL JOIN AIRLINE
+				)
+		   NATURAL JOIN LUGGAGE_TYPE AS LUGGAGE_1
+
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		weight = 23;
+
+
+
+/// ΜΕ 2 ΒΑΛΙΤΣΕΣ ///
+
+
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * base_price + LUGGAGE_1.cost + LUGGAGE_2.cost,2) AS price
+
+FROM 
+			  (
+					(
+							(
+							 FLIGHT NATURAL JOIN FARE 
+							) 
+					 NATURAL JOIN AIRLINE
+					)
+			   NATURAL JOIN LUGGAGE_TYPE AS LUGGAGE_1
+			  ) 
+		JOIN LUGGAGE_TYPE AS LUGGAGE_2 ON AIRLINE.airline_ID = LUGGAGE_2.airline_ID
+
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		LUGGAGE_1.weight = 23						  AND
+		LUGGAGE_2.weight = 32;
+
+
+
+
+													/// ΓΙΑ ΠΑΙΔΙ ///
+
+
+/// ΧΩΡΙΣ ΒΑΛΙΤΣΑ ///
+
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * age_price_coefficient * base_price,2) AS price
+		
+FROM 		  
+						(
+								(
+								 FLIGHT NATURAL JOIN FARE 
+								) 
+						 NATURAL JOIN AIRLINE 
+						)	
+			   NATURAL JOIN AGE_POLICY 
+
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		max_age = 12;
+
+
+/// ME 1 ΒΑΛΙΤΣΑ ///
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * age_price_coefficient * base_price + LUGGAGE_1.cost,2) AS price
+		
+FROM 		  
+			  (
+						(
+								(
+								 FLIGHT NATURAL JOIN FARE 
+								) 
+						 NATURAL JOIN AIRLINE 
+						)	
+			   NATURAL JOIN AGE_POLICY 
+			  )
+		NATURAL JOIN LUGGAGE_TYPE AS LUGGAGE_1
+
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		max_age = 12							      AND
+		LUGGAGE_1.weight = 23;
+
+
+
+/// ME 2 ΒΑΛΙΤΣΕΣ ///
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * age_price_coefficient * base_price + LUGGAGE_1.cost + LUGGAGE_2.cost,2) AS price
+		
+FROM 		 
+		   (
+				  (
+							(
+									(
+									 FLIGHT NATURAL JOIN FARE 
+									) 
+							 NATURAL JOIN AIRLINE 
+							)	
+				   NATURAL JOIN AGE_POLICY 
+				  )
+			 NATURAL JOIN LUGGAGE_TYPE AS LUGGAGE_1
+		    )
+		JOIN LUGGAGE_TYPE AS LUGGAGE_2 ON AIRLINE.airline_ID = LUGGAGE_2.airline_ID
+			
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		max_age = 12							      AND
+		LUGGAGE_1.weight = 23						  AND
+		LUGGAGE_2.weight = 32;
+
+
+													/// ΓΙΑ ΒΡΕΦΟΣ ///
+
+
+/// ΧΩΡΙΣ ΒΑΛΙΤΣΑ ///
+
+
+SELECT 
+		flight_number, 
+		departure_datetime,
+		airline_name,
+		ROUND(fare_price_coefficient * age_price_coefficient * base_price,2) AS price
+		
+FROM 		  
+						(
+								(
+								 FLIGHT NATURAL JOIN FARE 
+								) 
+						 NATURAL JOIN AIRLINE 
+						)	
+			   NATURAL JOIN AGE_POLICY 
+
+WHERE 
+		flight_number = 'A3710' 					  AND 
+		departure_datetime LIKE '2023-03-20 __:__:__' AND 
+		fare_name = 'Economy Flex'                    AND 
+		max_age = 2;
+
+
+
+------------------------------------------------------------------------------------------
+ΔΙΑΘΕΣΙΜΕΣ ΘΕΣΕΙΣ ΜΙΑΣ ΠΤΗΣΗΣ
+------------------------------------------------------------------------------------------
+
+
+
+SELECT seat_number,seat_class
+
+FROM SEAT_MAP NATURAL JOIN ( 
+				    SELECT aircraft_type
+				    FROM FLIGHT 
+				    WHERE 
+					   flight_number = 'A3710' 				  AND 
+					   departure_datetime LIKE '2023-03-20 __:__:__'
+				   )	
+							
+WHERE seat_number NOT IN   (
+				    SELECT seat_number
+				    FROM TAKEN_SEAT
+				    WHERE 
+					   flight_number = 'A3710' 				  AND 
+					   departure_datetime LIKE '2023-03-20 __:__:__'
+				   )
+
+ORDER BY seat_number;
+
+
+

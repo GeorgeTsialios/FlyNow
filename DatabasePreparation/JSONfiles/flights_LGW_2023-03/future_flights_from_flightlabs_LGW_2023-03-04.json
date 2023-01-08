@@ -1,0 +1,4965 @@
+[
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:25"
+        },
+        "arrival": {
+            "iataCode": "lpa",
+            "icaoCode": "gclp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8691",
+            "iataNumber": "u28691",
+            "icaoNumber": "ezy8691"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:40"
+        },
+        "arrival": {
+            "iataCode": "bhd",
+            "icaoCode": "egac",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "701",
+            "iataNumber": "u2701",
+            "icaoNumber": "ezy701"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:10"
+        },
+        "arrival": {
+            "iataCode": "cdg",
+            "icaoCode": "lfpg",
+            "terminal": "2b",
+            "gate": "",
+            "scheduledTime": "10:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8323",
+            "iataNumber": "u28323",
+            "icaoNumber": "ezy8323"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "3",
+            "scheduledTime": "08:35"
+        },
+        "arrival": {
+            "iataCode": "gci",
+            "icaoCode": "egjb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "09:50"
+        },
+        "aircraft": {
+            "modelCode": "at76",
+            "modelText": "atr 72-600"
+        },
+        "airline": {
+            "name": "aurigny air services",
+            "iataCode": "gr",
+            "icaoCode": "aur"
+        },
+        "flight": {
+            "number": "601",
+            "iataNumber": "gr601",
+            "icaoNumber": "aur601"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "09:25"
+        },
+        "arrival": {
+            "iataCode": "rix",
+            "icaoCode": "evra",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:10"
+        },
+        "aircraft": {
+            "modelCode": "bcs3",
+            "modelText": "airbus a220-300"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "2240",
+            "iataNumber": "ba2240",
+            "icaoNumber": "ba2240"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air baltic",
+                "iataCode": "bt",
+                "icaoCode": "bti"
+            },
+            "flight": {
+                "number": "652",
+                "iataNumber": "bt652",
+                "icaoNumber": "bti652"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "09:25"
+        },
+        "arrival": {
+            "iataCode": "rix",
+            "icaoCode": "evra",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:10"
+        },
+        "aircraft": {
+            "modelCode": "bcs3",
+            "modelText": "airbus a220-300"
+        },
+        "airline": {
+            "name": "air baltic",
+            "iataCode": "bt",
+            "icaoCode": "bti"
+        },
+        "flight": {
+            "number": "652",
+            "iataNumber": "bt652",
+            "icaoNumber": "bti652"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "10:00"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "13:30"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8k5"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "am",
+            "icaoCode": "am"
+        },
+        "flight": {
+            "number": "6941",
+            "iataNumber": "am6941",
+            "icaoNumber": "am6941"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air europa",
+                "iataCode": "ux",
+                "icaoCode": "aea"
+            },
+            "flight": {
+                "number": "1014",
+                "iataNumber": "ux1014",
+                "icaoNumber": "aea1014"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "10:00"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "13:30"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8k5"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ar",
+            "icaoCode": "ar"
+        },
+        "flight": {
+            "number": "7343",
+            "iataNumber": "ar7343",
+            "icaoNumber": "ar7343"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air europa",
+                "iataCode": "ux",
+                "icaoCode": "aea"
+            },
+            "flight": {
+                "number": "1014",
+                "iataNumber": "ux1014",
+                "icaoNumber": "aea1014"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "10:00"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "13:30"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8k5"
+        },
+        "airline": {
+            "name": "air europa",
+            "iataCode": "ux",
+            "icaoCode": "aea"
+        },
+        "flight": {
+            "number": "1014",
+            "iataNumber": "ux1014",
+            "icaoNumber": "aea1014"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "12:00"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "5",
+            "gate": "25",
+            "scheduledTime": "15:19"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "jetblue airways",
+            "iataCode": "b6",
+            "icaoCode": "jbu"
+        },
+        "flight": {
+            "number": "44",
+            "iataNumber": "b644",
+            "icaoNumber": "jbu44"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "558",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "dxb",
+            "icaoCode": "omdb",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-861"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qf",
+            "icaoCode": "qf"
+        },
+        "flight": {
+            "number": "8016",
+            "iataNumber": "qf8016",
+            "icaoNumber": "qf8016"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "emirates",
+                "iataCode": "ek",
+                "icaoCode": "uae"
+            },
+            "flight": {
+                "number": "16",
+                "iataNumber": "ek16",
+                "icaoNumber": "uae16"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "558",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "dxb",
+            "icaoCode": "omdb",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-861"
+        },
+        "airline": {
+            "name": "emirates",
+            "iataCode": "ek",
+            "icaoCode": "uae"
+        },
+        "flight": {
+            "number": "16",
+            "iataNumber": "ek16",
+            "icaoNumber": "uae16"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "18",
+            "scheduledTime": "16:35"
+        },
+        "arrival": {
+            "iataCode": "lis",
+            "icaoCode": "lppt",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "s4",
+            "icaoCode": "s4"
+        },
+        "flight": {
+            "number": "8613",
+            "iataNumber": "s48613",
+            "icaoNumber": "s48613"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "tap air portugal",
+                "iataCode": "tp",
+                "icaoCode": "tap"
+            },
+            "flight": {
+                "number": "1337",
+                "iataNumber": "tp1337",
+                "icaoNumber": "tap1337"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "18",
+            "scheduledTime": "16:35"
+        },
+        "arrival": {
+            "iataCode": "lis",
+            "icaoCode": "lppt",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "tap air portugal",
+            "iataCode": "tp",
+            "icaoCode": "tap"
+        },
+        "flight": {
+            "number": "1337",
+            "iataNumber": "tp1337",
+            "icaoNumber": "tap1337"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "18:15"
+        },
+        "arrival": {
+            "iataCode": "bhd",
+            "icaoCode": "egac",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "703",
+            "iataNumber": "u2703",
+            "icaoNumber": "ezy703"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:20"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "20:50"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8k5"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "am",
+            "icaoCode": "am"
+        },
+        "flight": {
+            "number": "6913",
+            "iataNumber": "am6913",
+            "icaoNumber": "am6913"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air europa",
+                "iataCode": "ux",
+                "icaoCode": "aea"
+            },
+            "flight": {
+                "number": "1016",
+                "iataNumber": "ux1016",
+                "icaoNumber": "aea1016"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:20"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "20:50"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8k5"
+        },
+        "airline": {
+            "name": "air europa",
+            "iataCode": "ux",
+            "icaoCode": "aea"
+        },
+        "flight": {
+            "number": "1016",
+            "iataNumber": "ux1016",
+            "icaoNumber": "aea1016"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "arrival": {
+            "iataCode": "inv",
+            "icaoCode": "egpe",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:35"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "865",
+            "iataNumber": "u2865",
+            "icaoNumber": "ezy865"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "5",
+            "scheduledTime": "19:40"
+        },
+        "arrival": {
+            "iataCode": "gci",
+            "icaoCode": "egjb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:55"
+        },
+        "aircraft": {
+            "modelCode": "e195",
+            "modelText": "embraer e195std"
+        },
+        "airline": {
+            "name": "aurigny air services",
+            "iataCode": "gr",
+            "icaoCode": "aur"
+        },
+        "flight": {
+            "number": "611",
+            "iataNumber": "gr611",
+            "icaoNumber": "aur611"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "19:40"
+        },
+        "arrival": {
+            "iataCode": "bio",
+            "icaoCode": "lebb",
+            "terminal": "o",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "8059",
+            "iataNumber": "ba8059",
+            "icaoNumber": "ba8059"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7293",
+                "iataNumber": "vy7293",
+                "icaoNumber": "vlg7293"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "19:40"
+        },
+        "arrival": {
+            "iataCode": "bio",
+            "icaoCode": "lebb",
+            "terminal": "o",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "5510",
+            "iataNumber": "ib5510",
+            "icaoNumber": "ib5510"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7293",
+                "iataNumber": "vy7293",
+                "icaoNumber": "vlg7293"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "19:40"
+        },
+        "arrival": {
+            "iataCode": "bio",
+            "icaoCode": "lebb",
+            "terminal": "o",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "3625",
+            "iataNumber": "qr3625",
+            "icaoNumber": "qr3625"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7293",
+                "iataNumber": "vy7293",
+                "icaoNumber": "vlg7293"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "11",
+            "scheduledTime": "19:40"
+        },
+        "arrival": {
+            "iataCode": "bio",
+            "icaoCode": "lebb",
+            "terminal": "o",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "vueling",
+            "iataCode": "vy",
+            "icaoCode": "vlg"
+        },
+        "flight": {
+            "number": "7293",
+            "iataNumber": "vy7293",
+            "icaoNumber": "vlg7293"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "19:30"
+        },
+        "arrival": {
+            "iataCode": "mru",
+            "icaoCode": "fimp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7604",
+            "iataNumber": "ib7604",
+            "icaoNumber": "ib7604"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2063",
+                "iataNumber": "ba2063",
+                "icaoNumber": "baw2063"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "19:30"
+        },
+        "arrival": {
+            "iataCode": "mru",
+            "icaoCode": "fimp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2063",
+            "iataNumber": "ba2063",
+            "icaoNumber": "baw2063"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "4",
+            "scheduledTime": "18:55"
+        },
+        "arrival": {
+            "iataCode": "dub",
+            "icaoCode": "eidw",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:25"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8as"
+        },
+        "airline": {
+            "name": "ryanair",
+            "iataCode": "fr",
+            "icaoCode": "ryr"
+        },
+        "flight": {
+            "number": "121",
+            "iataNumber": "fr121",
+            "icaoNumber": "ryr121"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "bgi",
+            "icaoCode": "tbpb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7608",
+            "iataNumber": "ib7608",
+            "icaoNumber": "ib7608"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2155",
+                "iataNumber": "ba2155",
+                "icaoNumber": "baw2155"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "bgi",
+            "icaoCode": "tbpb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "6257",
+            "iataNumber": "qr6257",
+            "icaoNumber": "qr6257"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2155",
+                "iataNumber": "ba2155",
+                "icaoNumber": "baw2155"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "bgi",
+            "icaoCode": "tbpb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2155",
+            "iataNumber": "ba2155",
+            "icaoNumber": "baw2155"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:00"
+        },
+        "arrival": {
+            "iataCode": "ist",
+            "icaoCode": "ltfm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:45"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "6e",
+            "icaoCode": "6e"
+        },
+        "flight": {
+            "number": "4072",
+            "iataNumber": "6e4072",
+            "icaoNumber": "6e4072"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "turkish airlines",
+                "iataCode": "tk",
+                "icaoCode": "thy"
+            },
+            "flight": {
+                "number": "1998",
+                "iataNumber": "tk1998",
+                "icaoNumber": "thy1998"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:00"
+        },
+        "arrival": {
+            "iataCode": "ist",
+            "icaoCode": "ltfm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:45"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "turkish airlines",
+            "iataCode": "tk",
+            "icaoCode": "thy"
+        },
+        "flight": {
+            "number": "1998",
+            "iataNumber": "tk1998",
+            "icaoNumber": "thy1998"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:50"
+        },
+        "arrival": {
+            "iataCode": "tll",
+            "icaoCode": "eetn",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "bcs3",
+            "modelText": "airbus a220-300"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tp",
+            "icaoCode": "tp"
+        },
+        "flight": {
+            "number": "6443",
+            "iataNumber": "tp6443",
+            "icaoNumber": "tp6443"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air baltic",
+                "iataCode": "bt",
+                "icaoCode": "bti"
+            },
+            "flight": {
+                "number": "872",
+                "iataNumber": "bt872",
+                "icaoNumber": "bti872"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:50"
+        },
+        "arrival": {
+            "iataCode": "tll",
+            "icaoCode": "eetn",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "22:40"
+        },
+        "aircraft": {
+            "modelCode": "bcs3",
+            "modelText": "airbus a220-300"
+        },
+        "airline": {
+            "name": "air baltic",
+            "iataCode": "bt",
+            "icaoCode": "bti"
+        },
+        "flight": {
+            "number": "872",
+            "iataNumber": "bt872",
+            "icaoNumber": "bti872"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "105",
+            "scheduledTime": "09:25"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:30"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8569",
+            "iataNumber": "u28569",
+            "icaoNumber": "ezy8569"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "cun",
+            "icaoCode": "mmun",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "16:45"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2203",
+            "iataNumber": "ba2203",
+            "icaoNumber": "baw2203"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "19",
+            "scheduledTime": "09:30"
+        },
+        "arrival": {
+            "iataCode": "anu",
+            "icaoCode": "tapa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:20"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7610",
+            "iataNumber": "ib7610",
+            "icaoNumber": "ib7610"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2157",
+                "iataNumber": "ba2157",
+                "icaoNumber": "baw2157"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "19",
+            "scheduledTime": "09:30"
+        },
+        "arrival": {
+            "iataCode": "anu",
+            "icaoCode": "tapa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:20"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "6277",
+            "iataNumber": "qr6277",
+            "icaoNumber": "qr6277"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2157",
+                "iataNumber": "ba2157",
+                "icaoNumber": "baw2157"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "19",
+            "scheduledTime": "09:30"
+        },
+        "arrival": {
+            "iataCode": "anu",
+            "icaoCode": "tapa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:20"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2157",
+            "iataNumber": "ba2157",
+            "icaoNumber": "baw2157"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:35"
+        },
+        "arrival": {
+            "iataCode": "ace",
+            "icaoCode": "gcrr",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8681",
+            "iataNumber": "u28681",
+            "icaoNumber": "ezy8681"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "06:25"
+        },
+        "arrival": {
+            "iataCode": "jer",
+            "icaoCode": "egjj",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "891",
+            "iataNumber": "u2891",
+            "icaoNumber": "ezy891"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "06:25"
+        },
+        "arrival": {
+            "iataCode": "svq",
+            "icaoCode": "lezl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:10"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet (neo livery)",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8175",
+            "iataNumber": "u28175",
+            "icaoNumber": "ezy8175"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "564",
+            "scheduledTime": "06:25"
+        },
+        "arrival": {
+            "iataCode": "lys",
+            "icaoCode": "lfll",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet (a321 neo livery)",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8411",
+            "iataNumber": "u28411",
+            "icaoNumber": "ezy8411"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "06:50"
+        },
+        "arrival": {
+            "iataCode": "agp",
+            "icaoCode": "lemg",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8601",
+            "iataNumber": "u28601",
+            "icaoNumber": "ezy8601"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "06:55"
+        },
+        "arrival": {
+            "iataCode": "fco",
+            "icaoCode": "lirf",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "10:25"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8251",
+            "iataNumber": "u28251",
+            "icaoNumber": "ezy8251"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:00"
+        },
+        "arrival": {
+            "iataCode": "tfs",
+            "icaoCode": "gcts",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8703",
+            "iataNumber": "u28703",
+            "icaoNumber": "ezy8703"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "567",
+            "scheduledTime": "07:15"
+        },
+        "arrival": {
+            "iataCode": "fue",
+            "icaoCode": "gcfv",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8535",
+            "iataNumber": "u28535",
+            "icaoNumber": "ezy8535"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:25"
+        },
+        "arrival": {
+            "iataCode": "fao",
+            "icaoCode": "lpfr",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8913",
+            "iataNumber": "u28913",
+            "icaoNumber": "ezy8913"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "arrival": {
+            "iataCode": "alc",
+            "icaoCode": "leal",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8661",
+            "iataNumber": "u28661",
+            "icaoNumber": "ezy8661"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:55"
+        },
+        "arrival": {
+            "iataCode": "gib",
+            "icaoCode": "lxgb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8901",
+            "iataNumber": "u28901",
+            "icaoNumber": "ezy8901"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:20"
+        },
+        "arrival": {
+            "iataCode": "pfo",
+            "icaoCode": "lcph",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8453",
+            "iataNumber": "u28453",
+            "icaoNumber": "ezy8453"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "55d",
+            "scheduledTime": "08:35"
+        },
+        "arrival": {
+            "iataCode": "bfs",
+            "icaoCode": "egaa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "835",
+            "iataNumber": "u2835",
+            "icaoNumber": "ezy835"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "08:40"
+        },
+        "arrival": {
+            "iataCode": "bgo",
+            "icaoCode": "enbr",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:35"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8jp"
+        },
+        "airline": {
+            "name": "norwegian",
+            "iataCode": "dy",
+            "icaoCode": "noz"
+        },
+        "flight": {
+            "number": "1315",
+            "iataNumber": "dy1315",
+            "icaoNumber": "noz1315"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "08:45"
+        },
+        "arrival": {
+            "iataCode": "cph",
+            "icaoCode": "ekch",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "11:35"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8jp"
+        },
+        "airline": {
+            "name": "norwegian (jenny lind livery)",
+            "iataCode": "dy",
+            "icaoCode": "noz"
+        },
+        "flight": {
+            "number": "3511",
+            "iataNumber": "dy3511",
+            "icaoNumber": "noz3511"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:45"
+        },
+        "arrival": {
+            "iataCode": "cta",
+            "icaoCode": "licc",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:55"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8567",
+            "iataNumber": "u28567",
+            "icaoNumber": "ezy8567"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "mxp",
+            "icaoCode": "limc",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8191",
+            "iataNumber": "u28191",
+            "icaoNumber": "ezy8191"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "12",
+            "scheduledTime": "09:15"
+        },
+        "arrival": {
+            "iataCode": "osl",
+            "icaoCode": "engm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-86n"
+        },
+        "airline": {
+            "name": "norwegian",
+            "iataCode": "dy",
+            "icaoCode": "noz"
+        },
+        "flight": {
+            "number": "1303",
+            "iataNumber": "dy1303",
+            "icaoNumber": "noz1303"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "15",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "tpa",
+            "icaoCode": "ktpa",
+            "terminal": "",
+            "gate": "f90",
+            "scheduledTime": "17:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "7015",
+            "iataNumber": "aa7015",
+            "icaoNumber": "aa7015"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2167",
+                "iataNumber": "ba2167",
+                "icaoNumber": "baw2167"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "15",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "tpa",
+            "icaoCode": "ktpa",
+            "terminal": "",
+            "gate": "f90",
+            "scheduledTime": "17:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "5457",
+            "iataNumber": "ay5457",
+            "icaoNumber": "ay5457"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2167",
+                "iataNumber": "ba2167",
+                "icaoNumber": "baw2167"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "15",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "tpa",
+            "icaoCode": "ktpa",
+            "terminal": "",
+            "gate": "f90",
+            "scheduledTime": "17:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ei",
+            "icaoCode": "ei"
+        },
+        "flight": {
+            "number": "8267",
+            "iataNumber": "ei8267",
+            "icaoNumber": "ei8267"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2167",
+                "iataNumber": "ba2167",
+                "icaoNumber": "baw2167"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "15",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "tpa",
+            "icaoCode": "ktpa",
+            "terminal": "",
+            "gate": "f90",
+            "scheduledTime": "17:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7614",
+            "iataNumber": "ib7614",
+            "icaoNumber": "ib7614"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2167",
+                "iataNumber": "ba2167",
+                "icaoNumber": "baw2167"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "15",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "tpa",
+            "icaoCode": "ktpa",
+            "terminal": "",
+            "gate": "f90",
+            "scheduledTime": "17:25"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2167",
+            "iataNumber": "ba2167",
+            "icaoNumber": "baw2167"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "10:50"
+        },
+        "arrival": {
+            "iataCode": "psa",
+            "icaoCode": "lirp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:00"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8231",
+            "iataNumber": "u28231",
+            "icaoNumber": "ezy8231"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:35"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8277",
+            "iataNumber": "u28277",
+            "icaoNumber": "ezy8277"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "50",
+            "scheduledTime": "11:40"
+        },
+        "arrival": {
+            "iataCode": "ayt",
+            "icaoCode": "ltai",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:00"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8839",
+            "iataNumber": "u28839",
+            "icaoNumber": "ezy8839"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "puj",
+            "icaoCode": "mdpc",
+            "terminal": "b",
+            "gate": "g25",
+            "scheduledTime": "17:05"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7618",
+            "iataNumber": "ib7618",
+            "icaoNumber": "ib7618"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2205",
+                "iataNumber": "ba2205",
+                "icaoNumber": "baw2205"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "puj",
+            "icaoCode": "mdpc",
+            "terminal": "b",
+            "gate": "g25",
+            "scheduledTime": "17:05"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2205",
+            "iataNumber": "ba2205",
+            "icaoNumber": "baw2205"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "105",
+            "scheduledTime": "11:35"
+        },
+        "arrival": {
+            "iataCode": "gva",
+            "icaoCode": "lsgg",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:15"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8468",
+            "iataNumber": "u28468",
+            "icaoNumber": "ezy8468"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "12:10"
+        },
+        "arrival": {
+            "iataCode": "inv",
+            "icaoCode": "egpe",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:55"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "863",
+            "iataNumber": "u2863",
+            "icaoNumber": "ezy863"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "50",
+            "scheduledTime": "15:30"
+        },
+        "arrival": {
+            "iataCode": "ath",
+            "icaoCode": "lgav",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "21:10"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8087",
+            "iataNumber": "u28087",
+            "icaoNumber": "ezy8087"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "51",
+            "scheduledTime": "12:50"
+        },
+        "arrival": {
+            "iataCode": "ssh",
+            "icaoCode": "hesh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:20"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8249",
+            "iataNumber": "u28249",
+            "icaoNumber": "ezy8249"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "18",
+            "scheduledTime": "11:55"
+        },
+        "arrival": {
+            "iataCode": "mla",
+            "icaoCode": "lmml",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "16:05"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "air malta",
+            "iataCode": "km",
+            "icaoCode": "amc"
+        },
+        "flight": {
+            "number": "117",
+            "iataNumber": "km117",
+            "icaoNumber": "amc117"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "07:05"
+        },
+        "arrival": {
+            "iataCode": "nap",
+            "icaoCode": "lirn",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8529",
+            "iataNumber": "u28529",
+            "icaoNumber": "ezy8529"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "112",
+            "scheduledTime": "14:10"
+        },
+        "arrival": {
+            "iataCode": "lpa",
+            "icaoCode": "gclp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:40"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8693",
+            "iataNumber": "u28693",
+            "icaoNumber": "ezy8693"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "101",
+            "scheduledTime": "14:25"
+        },
+        "arrival": {
+            "iataCode": "cph",
+            "icaoCode": "ekch",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "17:20"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8265",
+            "iataNumber": "u28265",
+            "icaoNumber": "ezy8265"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "104",
+            "scheduledTime": "14:45"
+        },
+        "arrival": {
+            "iataCode": "ace",
+            "icaoCode": "gcrr",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:05"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8685",
+            "iataNumber": "u28685",
+            "icaoNumber": "ezy8685"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "16:10"
+        },
+        "arrival": {
+            "iataCode": "alc",
+            "icaoCode": "leal",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:40"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8663",
+            "iataNumber": "u28663",
+            "icaoNumber": "ezy8663"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "17:15"
+        },
+        "arrival": {
+            "iataCode": "ams",
+            "icaoCode": "eham",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:30"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8883",
+            "iataNumber": "u28883",
+            "icaoNumber": "ezy8883"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "17:30"
+        },
+        "arrival": {
+            "iataCode": "jer",
+            "icaoCode": "egjj",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:30"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "895",
+            "iataNumber": "u2895",
+            "icaoNumber": "ezy895"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "18:00"
+        },
+        "arrival": {
+            "iataCode": "edi",
+            "icaoCode": "egph",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "811",
+            "iataNumber": "u2811",
+            "icaoNumber": "ezy811"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "10:30"
+        },
+        "arrival": {
+            "iataCode": "abz",
+            "icaoCode": "egpd",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "871",
+            "iataNumber": "u2871",
+            "icaoNumber": "ezy871"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "20:10"
+        },
+        "arrival": {
+            "iataCode": "snn",
+            "icaoCode": "einn",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "21:40"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8as"
+        },
+        "airline": {
+            "name": "ryanair",
+            "iataCode": "fr",
+            "icaoCode": "ryr"
+        },
+        "flight": {
+            "number": "1183",
+            "iataNumber": "fr1183",
+            "icaoNumber": "ryr1183"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "101",
+            "scheduledTime": "09:30"
+        },
+        "arrival": {
+            "iataCode": "vce",
+            "icaoCode": "lipz",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:40"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8063",
+            "iataNumber": "u28063",
+            "icaoNumber": "ezy8063"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:10"
+        },
+        "arrival": {
+            "iataCode": "gva",
+            "icaoCode": "lsgg",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:50"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8464",
+            "iataNumber": "u28464",
+            "icaoNumber": "ezy8464"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "4",
+            "scheduledTime": "08:35"
+        },
+        "arrival": {
+            "iataCode": "dub",
+            "icaoCode": "eidw",
+            "terminal": "2",
+            "gate": "bus",
+            "scheduledTime": "10:05"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "5901",
+            "iataNumber": "ba5901",
+            "icaoNumber": "ba5901"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "aer lingus",
+                "iataCode": "ei",
+                "icaoCode": "ein"
+            },
+            "flight": {
+                "number": "231",
+                "iataNumber": "ei231",
+                "icaoNumber": "ein231"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "4",
+            "scheduledTime": "08:35"
+        },
+        "arrival": {
+            "iataCode": "dub",
+            "icaoCode": "eidw",
+            "terminal": "2",
+            "gate": "bus",
+            "scheduledTime": "10:05"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "aer lingus",
+            "iataCode": "ei",
+            "icaoCode": "ein"
+        },
+        "flight": {
+            "number": "231",
+            "iataNumber": "ei231",
+            "icaoNumber": "ein231"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "13:50"
+        },
+        "arrival": {
+            "iataCode": "tfs",
+            "icaoCode": "gcts",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:15"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8705",
+            "iataNumber": "u28705",
+            "icaoNumber": "ezy8705"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:00"
+        },
+        "arrival": {
+            "iataCode": "iom",
+            "icaoCode": "egns",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "853",
+            "iataNumber": "u2853",
+            "icaoNumber": "ezy853"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "55e",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "gla",
+            "icaoCode": "egpf",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "885",
+            "iataNumber": "u2885",
+            "icaoNumber": "ezy885"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "569",
+            "scheduledTime": "12:55"
+        },
+        "arrival": {
+            "iataCode": "fnc",
+            "icaoCode": "lpma",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "16:45"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8137",
+            "iataNumber": "u28137",
+            "icaoNumber": "ezy8137"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:05"
+        },
+        "arrival": {
+            "iataCode": "bsl",
+            "icaoCode": "lfsb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8431",
+            "iataNumber": "u28431",
+            "icaoNumber": "ezy8431"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "52",
+            "scheduledTime": "07:40"
+        },
+        "arrival": {
+            "iataCode": "vlc",
+            "icaoCode": "levc",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8221",
+            "iataNumber": "u28221",
+            "icaoNumber": "ezy8221"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "10:00"
+        },
+        "arrival": {
+            "iataCode": "fco",
+            "icaoCode": "lirf",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "13:35"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "wizz air",
+            "iataCode": "w6",
+            "icaoCode": "wzz"
+        },
+        "flight": {
+            "number": "5781",
+            "iataNumber": "w65781",
+            "icaoNumber": "wzz5781"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "12:50"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "8075",
+            "iataNumber": "ba8075",
+            "icaoNumber": "ba8075"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7833",
+                "iataNumber": "vy7833",
+                "icaoNumber": "vlg7833"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "12:50"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "5547",
+            "iataNumber": "ib5547",
+            "icaoNumber": "ib5547"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7833",
+                "iataNumber": "vy7833",
+                "icaoNumber": "vlg7833"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "12:50"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "vueling",
+            "iataCode": "vy",
+            "icaoCode": "vlg"
+        },
+        "flight": {
+            "number": "7833",
+            "iataNumber": "vy7833",
+            "icaoNumber": "vlg7833"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "3",
+            "scheduledTime": "16:25"
+        },
+        "arrival": {
+            "iataCode": "gci",
+            "icaoCode": "egjb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "17:35"
+        },
+        "aircraft": {
+            "modelCode": "e195",
+            "modelText": "embraer e195std"
+        },
+        "airline": {
+            "name": "aurigny air services",
+            "iataCode": "gr",
+            "icaoCode": "aur"
+        },
+        "flight": {
+            "number": "607",
+            "iataNumber": "gr607",
+            "icaoNumber": "aur607"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "08:35"
+        },
+        "arrival": {
+            "iataCode": "vie",
+            "icaoCode": "loww",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "wizz air",
+            "iataCode": "w6",
+            "icaoCode": "wzz"
+        },
+        "flight": {
+            "number": "5701",
+            "iataNumber": "w65701",
+            "icaoNumber": "wzz5701"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "19:35"
+        },
+        "arrival": {
+            "iataCode": "abz",
+            "icaoCode": "egpd",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "21:15"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "873",
+            "iataNumber": "u2873",
+            "icaoNumber": "ezy873"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "06:20"
+        },
+        "arrival": {
+            "iataCode": "fao",
+            "icaoCode": "lpfr",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "09:20"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "wizz air",
+            "iataCode": "w6",
+            "icaoCode": "wzz"
+        },
+        "flight": {
+            "number": "5731",
+            "iataNumber": "w65731",
+            "icaoNumber": "wzz5731"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "53",
+            "scheduledTime": "12:00"
+        },
+        "arrival": {
+            "iataCode": "kef",
+            "icaoCode": "bikf",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "15:15"
+        },
+        "aircraft": {
+            "modelCode": "b38m",
+            "modelText": "boeing 737 max 8"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "b6",
+            "icaoCode": "b6"
+        },
+        "flight": {
+            "number": "5671",
+            "iataNumber": "b65671",
+            "icaoNumber": "b65671"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "icelandair",
+                "iataCode": "fi",
+                "icaoCode": "ice"
+            },
+            "flight": {
+                "number": "471",
+                "iataNumber": "fi471",
+                "icaoNumber": "ice471"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "53",
+            "scheduledTime": "12:00"
+        },
+        "arrival": {
+            "iataCode": "kef",
+            "icaoCode": "bikf",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "15:15"
+        },
+        "aircraft": {
+            "modelCode": "b38m",
+            "modelText": "boeing 737 max 8"
+        },
+        "airline": {
+            "name": "icelandair",
+            "iataCode": "fi",
+            "icaoCode": "ice"
+        },
+        "flight": {
+            "number": "471",
+            "iataNumber": "fi471",
+            "icaoNumber": "ice471"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "55e",
+            "scheduledTime": "12:00"
+        },
+        "arrival": {
+            "iataCode": "cdg",
+            "icaoCode": "lfpg",
+            "terminal": "2b",
+            "gate": "",
+            "scheduledTime": "14:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8325",
+            "iataNumber": "u28325",
+            "icaoNumber": "ezy8325"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "4s",
+            "gate": "",
+            "scheduledTime": "14:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-216"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "7195",
+            "iataNumber": "ba7195",
+            "icaoNumber": "ba7195"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "iberia express",
+                "iataCode": "i2",
+                "icaoCode": "ibs"
+            },
+            "flight": {
+                "number": "3715",
+                "iataNumber": "i23715",
+                "icaoNumber": "ibs3715"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "4s",
+            "gate": "",
+            "scheduledTime": "14:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-216"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "vy",
+            "icaoCode": "vy"
+        },
+        "flight": {
+            "number": "5348",
+            "iataNumber": "vy5348",
+            "icaoNumber": "vy5348"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "iberia express",
+                "iataCode": "i2",
+                "icaoCode": "ibs"
+            },
+            "flight": {
+                "number": "3715",
+                "iataNumber": "i23715",
+                "icaoNumber": "ibs3715"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "mad",
+            "icaoCode": "lemd",
+            "terminal": "4s",
+            "gate": "",
+            "scheduledTime": "14:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-216"
+        },
+        "airline": {
+            "name": "iberia express",
+            "iataCode": "i2",
+            "icaoCode": "ibs"
+        },
+        "flight": {
+            "number": "3715",
+            "iataNumber": "i23715",
+            "icaoNumber": "ibs3715"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "06:50"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "09:55"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8571",
+            "iataNumber": "u28571",
+            "icaoNumber": "ezy8571"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "nbe",
+            "icaoCode": "dtnh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:10"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8944",
+            "iataNumber": "u28944",
+            "icaoNumber": "ezy8944"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "mco",
+            "icaoCode": "kmco",
+            "terminal": "c",
+            "gate": "242",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "7012",
+            "iataNumber": "aa7012",
+            "icaoNumber": "aa7012"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2037",
+                "iataNumber": "ba2037",
+                "icaoNumber": "baw2037"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "mco",
+            "icaoCode": "kmco",
+            "terminal": "c",
+            "gate": "242",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "5447",
+            "iataNumber": "ay5447",
+            "icaoNumber": "ay5447"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2037",
+                "iataNumber": "ba2037",
+                "icaoNumber": "baw2037"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "mco",
+            "icaoCode": "kmco",
+            "terminal": "c",
+            "gate": "242",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ei",
+            "icaoCode": "ei"
+        },
+        "flight": {
+            "number": "8237",
+            "iataNumber": "ei8237",
+            "icaoNumber": "ei8237"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2037",
+                "iataNumber": "ba2037",
+                "icaoNumber": "baw2037"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "mco",
+            "icaoCode": "kmco",
+            "terminal": "c",
+            "gate": "242",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7598",
+            "iataNumber": "ib7598",
+            "icaoNumber": "ib7598"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2037",
+                "iataNumber": "ba2037",
+                "icaoNumber": "baw2037"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "mco",
+            "icaoCode": "kmco",
+            "terminal": "c",
+            "gate": "242",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "b772",
+            "modelText": "boeing 777-236(er)"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2037",
+            "iataNumber": "ba2037",
+            "icaoNumber": "baw2037"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "3",
+            "scheduledTime": "14:55"
+        },
+        "arrival": {
+            "iataCode": "nqy",
+            "icaoCode": "eghq",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "16:10"
+        },
+        "aircraft": {
+            "modelCode": "at76",
+            "modelText": "atr 72-600"
+        },
+        "airline": {
+            "name": "eastern airways",
+            "iataCode": "t3",
+            "icaoCode": "eze"
+        },
+        "flight": {
+            "number": "456",
+            "iataNumber": "t3456",
+            "icaoNumber": "eze456"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "14:00"
+        },
+        "arrival": {
+            "iataCode": "aga",
+            "icaoCode": "gmad",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:00"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-111"
+        },
+        "airline": {
+            "name": "easyjet (a321 neo livery)",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8149",
+            "iataNumber": "u28149",
+            "icaoNumber": "ezy8149"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:40"
+        },
+        "arrival": {
+            "iataCode": "osl",
+            "icaoCode": "engm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:50"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8jp"
+        },
+        "airline": {
+            "name": "norwegian (bjørnstjerne bjørnson livery)",
+            "iataCode": "dy",
+            "icaoCode": "noz"
+        },
+        "flight": {
+            "number": "1309",
+            "iataNumber": "dy1309",
+            "icaoNumber": "noz1309"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "10",
+            "scheduledTime": "10:10"
+        },
+        "arrival": {
+            "iataCode": "nap",
+            "icaoCode": "lirn",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:50"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "wizz air",
+            "iataCode": "w6",
+            "icaoCode": "wzz"
+        },
+        "flight": {
+            "number": "5791",
+            "iataNumber": "w65791",
+            "icaoNumber": "wzz5791"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "13:50"
+        },
+        "arrival": {
+            "iataCode": "rak",
+            "icaoCode": "gmmx",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2666",
+            "iataNumber": "ba2666",
+            "icaoNumber": "baw2666"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:45"
+        },
+        "arrival": {
+            "iataCode": "vrn",
+            "icaoCode": "lipx",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:50"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2596",
+            "iataNumber": "ba2596",
+            "icaoNumber": "baw2596"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:55"
+        },
+        "arrival": {
+            "iataCode": "ath",
+            "icaoCode": "lgav",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:35"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "wizz air",
+            "iataCode": "w6",
+            "icaoCode": "wzz"
+        },
+        "flight": {
+            "number": "5745",
+            "iataNumber": "w65745",
+            "icaoNumber": "wzz5745"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:40"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "8085",
+            "iataNumber": "ba8085",
+            "icaoNumber": "ba8085"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7835",
+                "iataNumber": "vy7835",
+                "icaoNumber": "vlg7835"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:40"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "5549",
+            "iataNumber": "ib5549",
+            "icaoNumber": "ib5549"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7835",
+                "iataNumber": "vy7835",
+                "icaoNumber": "vlg7835"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:40"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "5520",
+            "iataNumber": "qr5520",
+            "icaoNumber": "qr5520"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "vueling",
+                "iataCode": "vy",
+                "icaoCode": "vlg"
+            },
+            "flight": {
+                "number": "7835",
+                "iataNumber": "vy7835",
+                "icaoNumber": "vlg7835"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "17:40"
+        },
+        "arrival": {
+            "iataCode": "bcn",
+            "icaoCode": "lebl",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "vueling",
+            "iataCode": "vy",
+            "icaoCode": "vlg"
+        },
+        "flight": {
+            "number": "7835",
+            "iataNumber": "vy7835",
+            "icaoNumber": "vlg7835"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "13:00"
+        },
+        "arrival": {
+            "iataCode": "arn",
+            "icaoCode": "essa",
+            "terminal": "5",
+            "gate": "",
+            "scheduledTime": "16:30"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8jp"
+        },
+        "airline": {
+            "name": "norwegian",
+            "iataCode": "dy",
+            "icaoCode": "noz"
+        },
+        "flight": {
+            "number": "4456",
+            "iataNumber": "dy4456",
+            "icaoNumber": "noz4456"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "ace",
+            "icaoCode": "gcrr",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "5996",
+            "iataNumber": "qr5996",
+            "icaoNumber": "qr5996"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2732",
+                "iataNumber": "ba2732",
+                "icaoNumber": "baw2732"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "ace",
+            "icaoCode": "gcrr",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7656",
+            "iataNumber": "ib7656",
+            "icaoNumber": "ib7656"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2732",
+                "iataNumber": "ba2732",
+                "icaoNumber": "baw2732"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "ace",
+            "icaoCode": "gcrr",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2732",
+            "iataNumber": "ba2732",
+            "icaoNumber": "baw2732"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "102",
+            "scheduledTime": "14:55"
+        },
+        "arrival": {
+            "iataCode": "rak",
+            "icaoCode": "gmmx",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:30"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-251nx"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8895",
+            "iataNumber": "u28895",
+            "icaoNumber": "ezy8895"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "arrival": {
+            "iataCode": "bos",
+            "icaoCode": "kbos",
+            "terminal": "e",
+            "gate": "e1",
+            "scheduledTime": "15:32"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "jetblue airways",
+            "iataCode": "b6",
+            "icaoCode": "jbu"
+        },
+        "flight": {
+            "number": "1926",
+            "iataNumber": "b61926",
+            "icaoNumber": "jbu1926"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "19",
+            "scheduledTime": "12:30"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:35"
+        },
+        "aircraft": {
+            "modelCode": "b789",
+            "modelText": "boeing 787-9 dreamliner"
+        },
+        "airline": {
+            "name": "norse atlantic airways",
+            "iataCode": "n0",
+            "icaoCode": "nbt"
+        },
+        "flight": {
+            "number": "701",
+            "iataNumber": "n0701",
+            "icaoNumber": "nbt701"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "3",
+            "scheduledTime": "10:20"
+        },
+        "arrival": {
+            "iataCode": "gla",
+            "icaoCode": "egpf",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "6743",
+            "iataNumber": "aa6743",
+            "icaoNumber": "aa6743"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "1480",
+                "iataNumber": "ba1480",
+                "icaoNumber": "baw1480"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "3",
+            "scheduledTime": "10:20"
+        },
+        "arrival": {
+            "iataCode": "gla",
+            "icaoCode": "egpf",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "1480",
+            "iataNumber": "ba1480",
+            "icaoNumber": "baw1480"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "5",
+            "scheduledTime": "17:45"
+        },
+        "arrival": {
+            "iataCode": "ork",
+            "icaoCode": "eick",
+            "terminal": "",
+            "gate": "05",
+            "scheduledTime": "19:10"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8as"
+        },
+        "airline": {
+            "name": "ryanair",
+            "iataCode": "fr",
+            "icaoCode": "ryr"
+        },
+        "flight": {
+            "number": "7722",
+            "iataNumber": "fr7722",
+            "icaoNumber": "ryr7722"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "",
+            "scheduledTime": "08:15"
+        },
+        "arrival": {
+            "iataCode": "dlm",
+            "icaoCode": "ltbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "15:20"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8843",
+            "iataNumber": "u28843",
+            "icaoNumber": "ezy8843"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:40"
+        },
+        "arrival": {
+            "iataCode": "ams",
+            "icaoCode": "eham",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-131"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2758",
+            "iataNumber": "ba2758",
+            "icaoNumber": "baw2758"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:05"
+        },
+        "arrival": {
+            "iataCode": "fao",
+            "icaoCode": "lpfr",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:00"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-131"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2692",
+            "iataNumber": "ba2692",
+            "icaoNumber": "baw2692"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:10"
+        },
+        "arrival": {
+            "iataCode": "agp",
+            "icaoCode": "lemg",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "aircraft": {
+            "modelCode": "a319",
+            "modelText": "airbus a319-131"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2712",
+            "iataNumber": "ba2712",
+            "icaoNumber": "baw2712"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "07:15"
+        },
+        "arrival": {
+            "iataCode": "pmi",
+            "icaoCode": "lepa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:35"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2570",
+            "iataNumber": "ba2570",
+            "icaoNumber": "baw2570"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "n",
+            "gate": "51",
+            "scheduledTime": "07:50"
+        },
+        "arrival": {
+            "iataCode": "rak",
+            "icaoCode": "gmmx",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "8893",
+            "iataNumber": "u28893",
+            "icaoNumber": "ezy8893"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "08:05"
+        },
+        "arrival": {
+            "iataCode": "kef",
+            "icaoCode": "bikf",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "6539",
+            "iataNumber": "u26539",
+            "icaoNumber": "ezy6539"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "34",
+            "scheduledTime": "08:50"
+        },
+        "arrival": {
+            "iataCode": "tfs",
+            "icaoCode": "gcts",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2700",
+            "iataNumber": "ba2700",
+            "icaoNumber": "baw2700"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "14",
+            "scheduledTime": "15:25"
+        },
+        "arrival": {
+            "iataCode": "fco",
+            "icaoCode": "lirf",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "easyjet (europcar livery)",
+            "iataCode": "u2",
+            "icaoCode": "ezy"
+        },
+        "flight": {
+            "number": "6569",
+            "iataNumber": "u26569",
+            "icaoNumber": "ezy6569"
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "15:40"
+        },
+        "arrival": {
+            "iataCode": "alc",
+            "icaoCode": "leal",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7636",
+            "iataNumber": "ib7636",
+            "icaoNumber": "ib7636"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2632",
+                "iataNumber": "ba2632",
+                "icaoNumber": "baw2632"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "15:40"
+        },
+        "arrival": {
+            "iataCode": "alc",
+            "icaoCode": "leal",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "9782",
+            "iataNumber": "qr9782",
+            "icaoNumber": "qr9782"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "british airways",
+                "iataCode": "ba",
+                "icaoCode": "baw"
+            },
+            "flight": {
+                "number": "2632",
+                "iataNumber": "ba2632",
+                "icaoNumber": "baw2632"
+            }
+        }
+    },
+    {
+        "weekday": "6",
+        "departure": {
+            "iataCode": "lgw",
+            "icaoCode": "egkk",
+            "terminal": "s",
+            "gate": "",
+            "scheduledTime": "15:40"
+        },
+        "arrival": {
+            "iataCode": "alc",
+            "icaoCode": "leal",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:15"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "2632",
+            "iataNumber": "ba2632",
+            "icaoNumber": "baw2632"
+        }
+    }
+]

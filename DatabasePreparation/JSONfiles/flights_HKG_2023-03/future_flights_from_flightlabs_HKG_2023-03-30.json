@@ -1,0 +1,7227 @@
+[
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:25"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "11:45"
+        },
+        "aircraft": {
+            "modelCode": "a339",
+            "modelText": "airbus a330-941"
+        },
+        "airline": {
+            "name": "cebu pacific",
+            "iataCode": "5j",
+            "icaoCode": "ceb"
+        },
+        "flight": {
+            "number": "273",
+            "iataNumber": "5j273",
+            "icaoNumber": "ceb273"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "b,c",
+            "scheduledTime": "09:45"
+        },
+        "arrival": {
+            "iataCode": "pvg",
+            "icaoCode": "zspd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "368",
+            "iataNumber": "cx368",
+            "icaoNumber": "cpa368"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "f",
+            "scheduledTime": "10:20"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "a4",
+            "scheduledTime": "12:05"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines (skyteam livery)",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "602",
+            "iataNumber": "ci602",
+            "icaoNumber": "cal602"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "64",
+            "scheduledTime": "10:25"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "b5",
+            "scheduledTime": "12:20"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-367(er)"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "494",
+            "iataNumber": "cx494",
+            "icaoNumber": "cpa494"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "14",
+            "scheduledTime": "15:15"
+        },
+        "aircraft": {
+            "modelCode": "b773",
+            "modelText": "boeing 777-367"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "jl",
+            "icaoCode": "jl"
+        },
+        "flight": {
+            "number": "7052",
+            "iataNumber": "jl7052",
+            "icaoNumber": "jl7052"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "506",
+                "iataNumber": "cx506",
+                "icaoNumber": "cpa506"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "14",
+            "scheduledTime": "15:15"
+        },
+        "aircraft": {
+            "modelCode": "b773",
+            "modelText": "boeing 777-367"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "506",
+            "iataNumber": "cx506",
+            "icaoNumber": "cpa506"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "f",
+            "scheduledTime": "11:05"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "12:50"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "904",
+            "iataNumber": "ci904",
+            "icaoNumber": "cal904"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:05"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:50"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "910",
+            "iataNumber": "ci910",
+            "icaoNumber": "cal910"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:45"
+        },
+        "arrival": {
+            "iataCode": "ngo",
+            "icaoCode": "rjgg",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "08:15"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "216",
+            "iataNumber": "d0216",
+            "icaoNumber": "dhk216"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:25"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:45"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343(p2f)"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "128",
+            "iataNumber": "d0128",
+            "icaoNumber": "dhk128"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:30"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:50"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "204",
+            "iataNumber": "d0204",
+            "icaoNumber": "dhk204"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "b,c",
+            "scheduledTime": "17:50"
+        },
+        "arrival": {
+            "iataCode": "xmn",
+            "icaoCode": "zsam",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "978",
+            "iataNumber": "cx978",
+            "icaoNumber": "cpa978"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:40"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "05:35"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343(p2f)"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "831",
+            "iataNumber": "d0831",
+            "icaoNumber": "dhk831"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:20"
+        },
+        "arrival": {
+            "iataCode": "pek",
+            "icaoCode": "zbaa",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "21:30"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "768",
+            "iataNumber": "d0768",
+            "icaoNumber": "dhk768"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:45"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "05:20"
+        },
+        "aircraft": {
+            "modelCode": "a332",
+            "modelText": "airbus a330-243f"
+        },
+        "airline": {
+            "name": "air hong kong",
+            "iataCode": "ld",
+            "icaoCode": "ahk"
+        },
+        "flight": {
+            "number": "561",
+            "iataNumber": "ld561",
+            "icaoNumber": "ahk561"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "wy",
+            "icaoCode": "wy"
+        },
+        "flight": {
+            "number": "6063",
+            "iataNumber": "wy6063",
+            "icaoNumber": "wy6063"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "qatar airways",
+                "iataCode": "qr",
+                "icaoCode": "qtr"
+            },
+            "flight": {
+                "number": "817",
+                "iataNumber": "qr817",
+                "icaoNumber": "qtr817"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "9203",
+            "iataNumber": "cx9203",
+            "icaoNumber": "cx9203"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "qatar airways",
+                "iataCode": "qr",
+                "icaoCode": "qtr"
+            },
+            "flight": {
+                "number": "817",
+                "iataNumber": "qr817",
+                "icaoNumber": "qtr817"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "la",
+            "icaoCode": "la"
+        },
+        "flight": {
+            "number": "6039",
+            "iataNumber": "la6039",
+            "icaoNumber": "la6039"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "qatar airways",
+                "iataCode": "qr",
+                "icaoCode": "qtr"
+            },
+            "flight": {
+                "number": "817",
+                "iataNumber": "qr817",
+                "icaoNumber": "qtr817"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "2354",
+            "iataNumber": "ba2354",
+            "icaoNumber": "ba2354"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "qatar airways",
+                "iataCode": "qr",
+                "icaoCode": "qtr"
+            },
+            "flight": {
+                "number": "817",
+                "iataNumber": "qr817",
+                "icaoNumber": "qtr817"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ib",
+            "icaoCode": "ib"
+        },
+        "flight": {
+            "number": "7924",
+            "iataNumber": "ib7924",
+            "icaoNumber": "ib7924"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "qatar airways",
+                "iataCode": "qr",
+                "icaoCode": "qtr"
+            },
+            "flight": {
+                "number": "817",
+                "iataNumber": "qr817",
+                "icaoNumber": "qtr817"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "qatar airways",
+            "iataCode": "qr",
+            "icaoCode": "qtr"
+        },
+        "flight": {
+            "number": "817",
+            "iataNumber": "qr817",
+            "icaoNumber": "qtr817"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:50"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:50"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-841"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ac",
+            "icaoCode": "ac"
+        },
+        "flight": {
+            "number": "6302",
+            "iataNumber": "ac6302",
+            "icaoNumber": "ac6302"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "singapore airlines",
+                "iataCode": "sq",
+                "icaoCode": "sia"
+            },
+            "flight": {
+                "number": "895",
+                "iataNumber": "sq895",
+                "icaoNumber": "sia895"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:50"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:50"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-841"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "et",
+            "icaoCode": "et"
+        },
+        "flight": {
+            "number": "1322",
+            "iataNumber": "et1322",
+            "icaoNumber": "et1322"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "singapore airlines",
+                "iataCode": "sq",
+                "icaoCode": "sia"
+            },
+            "flight": {
+                "number": "895",
+                "iataNumber": "sq895",
+                "icaoNumber": "sia895"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:50"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:50"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-841"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "va",
+            "icaoCode": "va"
+        },
+        "flight": {
+            "number": "5775",
+            "iataNumber": "va5775",
+            "icaoNumber": "va5775"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "singapore airlines",
+                "iataCode": "sq",
+                "icaoCode": "sia"
+            },
+            "flight": {
+                "number": "895",
+                "iataNumber": "sq895",
+                "icaoNumber": "sia895"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:50"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:50"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-841"
+        },
+        "airline": {
+            "name": "singapore airlines",
+            "iataCode": "sq",
+            "icaoCode": "sia"
+        },
+        "flight": {
+            "number": "895",
+            "iataNumber": "sq895",
+            "icaoNumber": "sia895"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "19:25"
+        },
+        "arrival": {
+            "iataCode": "pvg",
+            "icaoCode": "zspd",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "22:05"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343(f)"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "782",
+            "iataNumber": "d0782",
+            "icaoNumber": "dhk782"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "60",
+            "scheduledTime": "21:00"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:15"
+        },
+        "aircraft": {
+            "modelCode": "a388",
+            "modelText": "airbus a380-861"
+        },
+        "airline": {
+            "name": "emirates",
+            "iataCode": "ek",
+            "icaoCode": "uae"
+        },
+        "flight": {
+            "number": "385",
+            "iataNumber": "ek385",
+            "icaoNumber": "uae385"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:30"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "04:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "608",
+            "iataNumber": "ci608",
+            "icaoNumber": "cal608"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "f",
+            "scheduledTime": "22:30"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "b1r",
+            "scheduledTime": "00:15"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "928",
+            "iataNumber": "ci928",
+            "icaoNumber": "cal928"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:00"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "922",
+            "iataNumber": "ci922",
+            "icaoNumber": "cal922"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "35",
+            "scheduledTime": "22:20"
+        },
+        "arrival": {
+            "iataCode": "lhr",
+            "icaoCode": "egll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "05:00"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-367(er)"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "251",
+            "iataNumber": "cx251",
+            "icaoNumber": "cpa251"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "5095",
+            "iataNumber": "ay5095",
+            "icaoNumber": "ay5095"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "105",
+                "iataNumber": "cx105",
+                "icaoNumber": "cpa105"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "4567",
+            "iataNumber": "ba4567",
+            "icaoNumber": "ba4567"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "105",
+                "iataNumber": "cx105",
+                "icaoNumber": "cpa105"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "lh",
+            "icaoCode": "lh"
+        },
+        "flight": {
+            "number": "7013",
+            "iataNumber": "lh7013",
+            "icaoNumber": "lh7013"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "105",
+                "iataNumber": "cx105",
+                "icaoNumber": "cpa105"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "lx",
+            "icaoCode": "lx"
+        },
+        "flight": {
+            "number": "9513",
+            "iataNumber": "lx9513",
+            "icaoNumber": "lx9513"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "105",
+                "iataNumber": "cx105",
+                "icaoNumber": "cpa105"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "5830",
+            "iataNumber": "qr5830",
+            "icaoNumber": "qr5830"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "105",
+                "iataNumber": "cx105",
+                "icaoNumber": "cpa105"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:25"
+        },
+        "arrival": {
+            "iataCode": "mel",
+            "icaoCode": "ymml",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "12:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "105",
+            "iataNumber": "cx105",
+            "icaoNumber": "cpa105"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "43",
+            "scheduledTime": "23:15"
+        },
+        "arrival": {
+            "iataCode": "ams",
+            "icaoCode": "eham",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "06:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "271",
+            "iataNumber": "cx271",
+            "icaoNumber": "cpa271"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "50",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "tlv",
+            "icaoCode": "llbg",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "07:15"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "675",
+            "iataNumber": "cx675",
+            "icaoNumber": "cpa675"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:30"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "04:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "614",
+            "iataNumber": "ci614",
+            "icaoNumber": "cal614"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "43",
+            "scheduledTime": "03:20"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "8",
+            "gate": "",
+            "scheduledTime": "06:00"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "mh",
+            "icaoCode": "mh"
+        },
+        "flight": {
+            "number": "9210",
+            "iataNumber": "mh9210",
+            "icaoNumber": "mh9210"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "844",
+                "iataNumber": "cx844",
+                "icaoNumber": "cpa844"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "43",
+            "scheduledTime": "03:20"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "8",
+            "gate": "",
+            "scheduledTime": "06:00"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "844",
+            "iataNumber": "cx844",
+            "icaoNumber": "cpa844"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:20"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:50"
+        },
+        "aircraft": {
+            "modelCode": "b77l",
+            "modelText": "boeing 777-fb5"
+        },
+        "airline": {
+            "name": "korean air cargo",
+            "iataCode": "ke",
+            "icaoCode": "kal"
+        },
+        "flight": {
+            "number": "314",
+            "iataNumber": "ke314",
+            "icaoNumber": "kal314"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:20"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:10"
+        },
+        "aircraft": {
+            "modelCode": "a332",
+            "modelText": "airbus a330-243f"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "327",
+            "iataNumber": "d0327",
+            "icaoNumber": "dhk327"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "05:15"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8as(bcf)"
+        },
+        "airline": {
+            "name": "k-mile air",
+            "iataCode": "8k",
+            "icaoCode": "kmi"
+        },
+        "flight": {
+            "number": "526",
+            "iataNumber": "8k526",
+            "icaoNumber": "kmi526"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:45"
+        },
+        "arrival": {
+            "iataCode": "szb",
+            "icaoCode": "wmsa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:20"
+        },
+        "aircraft": {
+            "modelCode": "b762",
+            "modelText": "boeing 767-232(bdsf)"
+        },
+        "airline": {
+            "name": "raya airways",
+            "iataCode": "th",
+            "icaoCode": "rmy"
+        },
+        "flight": {
+            "number": "3508",
+            "iataNumber": "th3508",
+            "icaoNumber": "rmy3508"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "04:00"
+        },
+        "arrival": {
+            "iataCode": "pen",
+            "icaoCode": "wmkp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:40"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "391",
+            "iataNumber": "d0391",
+            "icaoNumber": "dhk391"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:10"
+        },
+        "arrival": {
+            "iataCode": "pvg",
+            "icaoCode": "zspd",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:20"
+        },
+        "aircraft": {
+            "modelCode": "b77l",
+            "modelText": "boeing 777-f"
+        },
+        "airline": {
+            "name": "china cargo airlines",
+            "iataCode": "ck",
+            "icaoCode": "ckk"
+        },
+        "flight": {
+            "number": "264",
+            "iataNumber": "ck264",
+            "icaoNumber": "ckk264"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "arrival": {
+            "iataCode": "pek",
+            "icaoCode": "zbaa",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ca",
+            "icaoCode": "ca"
+        },
+        "flight": {
+            "number": "6504",
+            "iataNumber": "ca6504",
+            "icaoNumber": "ca6504"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "334",
+                "iataNumber": "cx334",
+                "icaoNumber": "cpa334"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "arrival": {
+            "iataCode": "pek",
+            "icaoCode": "zbaa",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "10:45"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "334",
+            "iataNumber": "cx334",
+            "icaoNumber": "cpa334"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "b",
+            "scheduledTime": "07:30"
+        },
+        "arrival": {
+            "iataCode": "pvg",
+            "icaoCode": "zspd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:10"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-367(er)"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "366",
+            "iataNumber": "cx366",
+            "icaoNumber": "cpa366"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:30"
+        },
+        "arrival": {
+            "iataCode": "anc",
+            "icaoCode": "panc",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "12:43"
+        },
+        "aircraft": {
+            "modelCode": "b744",
+            "modelText": "boeing 747-44af"
+        },
+        "airline": {
+            "name": "ups",
+            "iataCode": "5x",
+            "icaoCode": "ups"
+        },
+        "flight": {
+            "number": "63",
+            "iataNumber": "5x63",
+            "icaoNumber": "ups63"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "08:25"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "8910",
+            "iataNumber": "aa8910",
+            "icaoNumber": "aa8910"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "767",
+                "iataNumber": "cx767",
+                "icaoNumber": "cpa767"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "08:25"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ac",
+            "icaoCode": "ac"
+        },
+        "flight": {
+            "number": "9779",
+            "iataNumber": "ac9779",
+            "icaoNumber": "ac9779"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "767",
+                "iataNumber": "cx767",
+                "icaoNumber": "cpa767"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "08:25"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "4559",
+            "iataNumber": "ba4559",
+            "icaoNumber": "ba4559"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "767",
+                "iataNumber": "cx767",
+                "icaoNumber": "cpa767"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "08:25"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "vn",
+            "icaoCode": "vn"
+        },
+        "flight": {
+            "number": "3563",
+            "iataNumber": "vn3563",
+            "icaoNumber": "vn3563"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "767",
+                "iataNumber": "cx767",
+                "icaoNumber": "cpa767"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "08:25"
+        },
+        "arrival": {
+            "iataCode": "sgn",
+            "icaoCode": "vvts",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "767",
+            "iataNumber": "cx767",
+            "icaoNumber": "cpa767"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "6",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "pek",
+            "icaoCode": "zbaa",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "12:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ca",
+            "icaoCode": "ca"
+        },
+        "flight": {
+            "number": "6510",
+            "iataNumber": "ca6510",
+            "icaoNumber": "ca6510"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "386",
+                "iataNumber": "cx386",
+                "icaoNumber": "cpa386"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "6",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "pek",
+            "icaoCode": "zbaa",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "12:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "386",
+            "iataNumber": "cx386",
+            "icaoNumber": "cpa386"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "11:20"
+        },
+        "aircraft": {
+            "modelCode": "",
+            "modelText": ""
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ac",
+            "icaoCode": "ac"
+        },
+        "flight": {
+            "number": "9777",
+            "iataNumber": "ac9777",
+            "icaoNumber": "ac9777"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "901",
+                "iataNumber": "cx901",
+                "icaoNumber": "cpa901"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "11:20"
+        },
+        "aircraft": {
+            "modelCode": "",
+            "modelText": ""
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "901",
+            "iataNumber": "cx901",
+            "icaoNumber": "cpa901"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "13:55"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "philippine airlines",
+            "iataCode": "pr",
+            "icaoCode": "pal"
+        },
+        "flight": {
+            "number": "301",
+            "iataNumber": "pr301",
+            "icaoNumber": "pal301"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:35"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "07:25"
+        },
+        "aircraft": {
+            "modelCode": "b763",
+            "modelText": "boeing 767-381(er)(bcf)"
+        },
+        "airline": {
+            "name": "ana cargo",
+            "iataCode": "nh",
+            "icaoCode": "ana"
+        },
+        "flight": {
+            "number": "8512",
+            "iataNumber": "nh8512",
+            "icaoNumber": "ana8512"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "8906",
+            "iataNumber": "aa8906",
+            "icaoNumber": "aa8906"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "705",
+                "iataNumber": "cx705",
+                "icaoNumber": "cpa705"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ac",
+            "icaoCode": "ac"
+        },
+        "flight": {
+            "number": "9761",
+            "iataNumber": "ac9761",
+            "icaoNumber": "ac9761"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "705",
+                "iataNumber": "cx705",
+                "icaoNumber": "cpa705"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "pg",
+            "icaoCode": "pg"
+        },
+        "flight": {
+            "number": "4550",
+            "iataNumber": "pg4550",
+            "icaoNumber": "pg4550"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "705",
+                "iataNumber": "cx705",
+                "icaoNumber": "cpa705"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "3469",
+            "iataNumber": "qr3469",
+            "icaoNumber": "qr3469"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "705",
+                "iataNumber": "cx705",
+                "icaoNumber": "cpa705"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "705",
+            "iataNumber": "cx705",
+            "icaoNumber": "cpa705"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:30"
+        },
+        "arrival": {
+            "iataCode": "xmn",
+            "icaoCode": "zsam",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "11:00"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "970",
+            "iataNumber": "cx970",
+            "icaoNumber": "cpa970"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "12:15"
+        },
+        "arrival": {
+            "iataCode": "hgh",
+            "icaoCode": "zshc",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "14:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "960",
+            "iataNumber": "cx960",
+            "icaoNumber": "cpa960"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "32",
+            "scheduledTime": "19:45"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "8",
+            "gate": "",
+            "scheduledTime": "22:20"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "mh",
+            "icaoCode": "mh"
+        },
+        "flight": {
+            "number": "9186",
+            "iataNumber": "mh9186",
+            "icaoNumber": "mh9186"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "846",
+                "iataNumber": "cx846",
+                "icaoNumber": "cpa846"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "32",
+            "scheduledTime": "19:45"
+        },
+        "arrival": {
+            "iataCode": "jfk",
+            "icaoCode": "kjfk",
+            "terminal": "8",
+            "gate": "",
+            "scheduledTime": "22:20"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "846",
+            "iataNumber": "cx846",
+            "icaoNumber": "cpa846"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "21:55"
+        },
+        "arrival": {
+            "iataCode": "bne",
+            "icaoCode": "ybbn",
+            "terminal": "i",
+            "gate": "82",
+            "scheduledTime": "08:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "5099",
+            "iataNumber": "ay5099",
+            "icaoNumber": "ay5099"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "155",
+                "iataNumber": "cx155",
+                "icaoNumber": "cpa155"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "21:55"
+        },
+        "arrival": {
+            "iataCode": "bne",
+            "icaoCode": "ybbn",
+            "terminal": "i",
+            "gate": "82",
+            "scheduledTime": "08:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "4555",
+            "iataNumber": "ba4555",
+            "icaoNumber": "ba4555"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "155",
+                "iataNumber": "cx155",
+                "icaoNumber": "cpa155"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "21:55"
+        },
+        "arrival": {
+            "iataCode": "bne",
+            "icaoCode": "ybbn",
+            "terminal": "i",
+            "gate": "82",
+            "scheduledTime": "08:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "3466",
+            "iataNumber": "qr3466",
+            "icaoNumber": "qr3466"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "155",
+                "iataNumber": "cx155",
+                "icaoNumber": "cpa155"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "21:55"
+        },
+        "arrival": {
+            "iataCode": "bne",
+            "icaoCode": "ybbn",
+            "terminal": "i",
+            "gate": "82",
+            "scheduledTime": "08:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "155",
+            "iataNumber": "cx155",
+            "icaoNumber": "cpa155"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "22:00"
+        },
+        "arrival": {
+            "iataCode": "doh",
+            "icaoCode": "othh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:15"
+        },
+        "aircraft": {
+            "modelCode": "b77l",
+            "modelText": "boeing 777-f"
+        },
+        "airline": {
+            "name": "qatar cargo",
+            "iataCode": "qr",
+            "icaoCode": "qtr"
+        },
+        "flight": {
+            "number": "8435",
+            "iataNumber": "qr8435",
+            "icaoNumber": "qtr8435"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "18",
+            "scheduledTime": "16:05"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tk",
+            "icaoCode": "tk"
+        },
+        "flight": {
+            "number": "8876",
+            "iataNumber": "tk8876",
+            "icaoNumber": "tk8876"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hong kong airlines",
+                "iataCode": "hx",
+                "icaoCode": "crk"
+            },
+            "flight": {
+                "number": "618",
+                "iataNumber": "hx618",
+                "icaoNumber": "crk618"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:30"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "18",
+            "scheduledTime": "16:05"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "hong kong airlines",
+            "iataCode": "hx",
+            "icaoCode": "crk"
+        },
+        "flight": {
+            "number": "618",
+            "iataNumber": "hx618",
+            "icaoNumber": "crk618"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:25"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "b789",
+            "modelText": "boeing 787-9 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ua",
+            "icaoCode": "ua"
+        },
+        "flight": {
+            "number": "7918",
+            "iataNumber": "ua7918",
+            "icaoNumber": "ua7918"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "all nippon airways",
+                "iataCode": "nh",
+                "icaoCode": "ana"
+            },
+            "flight": {
+                "number": "860",
+                "iataNumber": "nh860",
+                "icaoNumber": "ana860"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:25"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "19:20"
+        },
+        "aircraft": {
+            "modelCode": "b789",
+            "modelText": "boeing 787-9 dreamliner"
+        },
+        "airline": {
+            "name": "all nippon airways",
+            "iataCode": "nh",
+            "icaoCode": "ana"
+        },
+        "flight": {
+            "number": "860",
+            "iataNumber": "nh860",
+            "icaoNumber": "ana860"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "b,c",
+            "scheduledTime": "13:35"
+        },
+        "arrival": {
+            "iataCode": "pvg",
+            "icaoCode": "zspd",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "16:15"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "360",
+            "iataNumber": "cx360",
+            "icaoNumber": "cpa360"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:40"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "08:35"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343(f)"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "208",
+            "iataNumber": "d0208",
+            "icaoNumber": "dhk208"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "15:40"
+        },
+        "arrival": {
+            "iataCode": "ceb",
+            "icaoCode": "rpvm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:30"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "457",
+            "iataNumber": "d0457",
+            "icaoNumber": "dhk457"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:00"
+        },
+        "aircraft": {
+            "modelCode": "a332",
+            "modelText": "airbus a330-243f"
+        },
+        "airline": {
+            "name": "hong kong air cargo",
+            "iataCode": "rh",
+            "icaoCode": "hkc"
+        },
+        "flight": {
+            "number": "371",
+            "iataNumber": "rh371",
+            "icaoNumber": "hkc371"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "15:40"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:30"
+        },
+        "aircraft": {
+            "modelCode": "b763",
+            "modelText": "boeing 767-381(er)(bcf)"
+        },
+        "airline": {
+            "name": "ana cargo",
+            "iataCode": "nh",
+            "icaoCode": "ana"
+        },
+        "flight": {
+            "number": "8542",
+            "iataNumber": "nh8542",
+            "icaoNumber": "ana8542"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "04:15"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "05:55"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "680",
+            "iataNumber": "d0680",
+            "icaoNumber": "dhk680"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "17:05"
+        },
+        "arrival": {
+            "iataCode": "han",
+            "icaoCode": "vvnb",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "18:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ac",
+            "icaoCode": "ac"
+        },
+        "flight": {
+            "number": "9797",
+            "iataNumber": "ac9797",
+            "icaoNumber": "ac9797"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "743",
+                "iataNumber": "cx743",
+                "icaoNumber": "cpa743"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "17:05"
+        },
+        "arrival": {
+            "iataCode": "han",
+            "icaoCode": "vvnb",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "18:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "vn",
+            "icaoCode": "vn"
+        },
+        "flight": {
+            "number": "3567",
+            "iataNumber": "vn3567",
+            "icaoNumber": "vn3567"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "743",
+                "iataNumber": "cx743",
+                "icaoNumber": "cpa743"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "17:05"
+        },
+        "arrival": {
+            "iataCode": "han",
+            "icaoCode": "vvnb",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "18:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "743",
+            "iataNumber": "cx743",
+            "icaoNumber": "cpa743"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "05:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ua",
+            "icaoCode": "ua"
+        },
+        "flight": {
+            "number": "7307",
+            "iataNumber": "ua7307",
+            "icaoNumber": "ua7307"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "asiana airlines",
+                "iataCode": "oz",
+                "icaoCode": "aar"
+            },
+            "flight": {
+                "number": "746",
+                "iataNumber": "oz746",
+                "icaoNumber": "aar746"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "05:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "hx",
+            "icaoCode": "hx"
+        },
+        "flight": {
+            "number": "1566",
+            "iataNumber": "hx1566",
+            "icaoNumber": "hx1566"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "asiana airlines",
+                "iataCode": "oz",
+                "icaoCode": "aar"
+            },
+            "flight": {
+                "number": "746",
+                "iataNumber": "oz746",
+                "icaoNumber": "aar746"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:40"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "05:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "asiana airlines",
+            "iataCode": "oz",
+            "icaoCode": "aar"
+        },
+        "flight": {
+            "number": "746",
+            "iataNumber": "oz746",
+            "icaoNumber": "aar746"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "4",
+            "scheduledTime": "08:05"
+        },
+        "arrival": {
+            "iataCode": "ckg",
+            "icaoCode": "zuck",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-342"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ca",
+            "icaoCode": "ca"
+        },
+        "flight": {
+            "number": "6520",
+            "iataNumber": "ca6520",
+            "icaoNumber": "ca6520"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "932",
+                "iataNumber": "cx932",
+                "icaoNumber": "cpa932"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "4",
+            "scheduledTime": "08:05"
+        },
+        "arrival": {
+            "iataCode": "ckg",
+            "icaoCode": "zuck",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "10:40"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-342"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "932",
+            "iataNumber": "cx932",
+            "icaoNumber": "cpa932"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "1727",
+            "iataNumber": "cx1727",
+            "icaoNumber": "cx1727"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "malaysia airlines (malaysia negaraku livery)",
+                "iataCode": "mh",
+                "icaoCode": "mas"
+            },
+            "flight": {
+                "number": "73",
+                "iataNumber": "mh73",
+                "icaoNumber": "mas73"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "fy",
+            "icaoCode": "fy"
+        },
+        "flight": {
+            "number": "7051",
+            "iataNumber": "fy7051",
+            "icaoNumber": "fy7051"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "malaysia airlines (malaysia negaraku livery)",
+                "iataCode": "mh",
+                "icaoCode": "mas"
+            },
+            "flight": {
+                "number": "73",
+                "iataNumber": "mh73",
+                "icaoNumber": "mas73"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "wy",
+            "icaoCode": "wy"
+        },
+        "flight": {
+            "number": "5073",
+            "iataNumber": "wy5073",
+            "icaoNumber": "wy5073"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "malaysia airlines (malaysia negaraku livery)",
+                "iataCode": "mh",
+                "icaoCode": "mas"
+            },
+            "flight": {
+                "number": "73",
+                "iataNumber": "mh73",
+                "icaoNumber": "mas73"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "6625",
+            "iataNumber": "ay6625",
+            "icaoNumber": "ay6625"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "malaysia airlines (malaysia negaraku livery)",
+                "iataCode": "mh",
+                "icaoCode": "mas"
+            },
+            "flight": {
+                "number": "73",
+                "iataNumber": "mh73",
+                "icaoNumber": "mas73"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "4971",
+            "iataNumber": "qr4971",
+            "icaoNumber": "qr4971"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "malaysia airlines (malaysia negaraku livery)",
+                "iataCode": "mh",
+                "icaoCode": "mas"
+            },
+            "flight": {
+                "number": "73",
+                "iataNumber": "mh73",
+                "icaoNumber": "mas73"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:50"
+        },
+        "arrival": {
+            "iataCode": "kul",
+            "icaoCode": "wmkk",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "18:55"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8h6"
+        },
+        "airline": {
+            "name": "malaysia airlines (malaysia negaraku livery)",
+            "iataCode": "mh",
+            "icaoCode": "mas"
+        },
+        "flight": {
+            "number": "73",
+            "iataNumber": "mh73",
+            "icaoNumber": "mas73"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:05"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "4575",
+            "iataNumber": "ba4575",
+            "icaoNumber": "ba4575"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "797",
+                "iataNumber": "cx797",
+                "icaoNumber": "cpa797"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:05"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "5809",
+            "iataNumber": "qr5809",
+            "icaoNumber": "qr5809"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "797",
+                "iataNumber": "cx797",
+                "icaoNumber": "cpa797"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:05"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "8917",
+            "iataNumber": "aa8917",
+            "icaoNumber": "aa8917"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "797",
+                "iataNumber": "cx797",
+                "icaoNumber": "cpa797"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:05"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "22:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "797",
+            "iataNumber": "cx797",
+            "icaoNumber": "cpa797"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:15"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "18:35"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "903",
+            "iataNumber": "cx903",
+            "icaoNumber": "cpa903"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "19:15"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "21:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cebu pacific",
+            "iataCode": "5j",
+            "icaoCode": "ceb"
+        },
+        "flight": {
+            "number": "113",
+            "iataNumber": "5j113",
+            "icaoNumber": "ceb113"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:05"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "pg",
+            "icaoCode": "pg"
+        },
+        "flight": {
+            "number": "4560",
+            "iataNumber": "pg4560",
+            "icaoNumber": "pg4560"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "701",
+                "iataNumber": "cx701",
+                "icaoNumber": "cpa701"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:05"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "3451",
+            "iataNumber": "qr3451",
+            "icaoNumber": "qr3451"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "701",
+                "iataNumber": "cx701",
+                "icaoNumber": "cpa701"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:05"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:15"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "701",
+            "iataNumber": "cx701",
+            "icaoNumber": "cpa701"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:05"
+        },
+        "arrival": {
+            "iataCode": "zrh",
+            "icaoCode": "lszh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "aircraft": {
+            "modelCode": "a343",
+            "modelText": "airbus a340-313"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "6633",
+            "iataNumber": "cx6633",
+            "icaoNumber": "cx6633"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "swiss",
+                "iataCode": "lx",
+                "icaoCode": "swr"
+            },
+            "flight": {
+                "number": "139",
+                "iataNumber": "lx139",
+                "icaoNumber": "swr139"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:05"
+        },
+        "arrival": {
+            "iataCode": "zrh",
+            "icaoCode": "lszh",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "07:30"
+        },
+        "aircraft": {
+            "modelCode": "a343",
+            "modelText": "airbus a340-313"
+        },
+        "airline": {
+            "name": "swiss",
+            "iataCode": "lx",
+            "icaoCode": "swr"
+        },
+        "flight": {
+            "number": "139",
+            "iataNumber": "lx139",
+            "icaoNumber": "swr139"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "36",
+            "scheduledTime": "01:00"
+        },
+        "arrival": {
+            "iataCode": "yvr",
+            "icaoCode": "cyvr",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "20:25"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "888",
+            "iataNumber": "cx888",
+            "icaoNumber": "cpa888"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "23:30"
+        },
+        "arrival": {
+            "iataCode": "ist",
+            "icaoCode": "ltfm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "06:10"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-3f2(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "hx",
+            "icaoCode": "hx"
+        },
+        "flight": {
+            "number": "3671",
+            "iataNumber": "hx3671",
+            "icaoNumber": "hx3671"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "turkish airlines",
+                "iataCode": "tk",
+                "icaoCode": "thy"
+            },
+            "flight": {
+                "number": "71",
+                "iataNumber": "tk71",
+                "icaoNumber": "thy71"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "23:30"
+        },
+        "arrival": {
+            "iataCode": "ist",
+            "icaoCode": "ltfm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "06:10"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-3f2(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "nz",
+            "icaoCode": "nz"
+        },
+        "flight": {
+            "number": "4851",
+            "iataNumber": "nz4851",
+            "icaoNumber": "nz4851"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "turkish airlines",
+                "iataCode": "tk",
+                "icaoCode": "thy"
+            },
+            "flight": {
+                "number": "71",
+                "iataNumber": "tk71",
+                "icaoNumber": "thy71"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "23:30"
+        },
+        "arrival": {
+            "iataCode": "ist",
+            "icaoCode": "ltfm",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "06:10"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-3f2(er)"
+        },
+        "airline": {
+            "name": "turkish airlines",
+            "iataCode": "tk",
+            "icaoCode": "thy"
+        },
+        "flight": {
+            "number": "71",
+            "iataNumber": "tk71",
+            "icaoNumber": "thy71"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "23:00"
+        },
+        "arrival": {
+            "iataCode": "lhr",
+            "icaoCode": "egll",
+            "terminal": "5",
+            "gate": "",
+            "scheduledTime": "05:50"
+        },
+        "aircraft": {
+            "modelCode": "b789",
+            "modelText": "boeing 787-9 dreamliner"
+        },
+        "airline": {
+            "name": "british airways",
+            "iataCode": "ba",
+            "icaoCode": "baw"
+        },
+        "flight": {
+            "number": "32",
+            "iataNumber": "ba32",
+            "icaoNumber": "baw32"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "21:10"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "",
+            "gate": "515",
+            "scheduledTime": "22:50"
+        },
+        "aircraft": {
+            "modelCode": "b744",
+            "modelText": "boeing 747-409(f)"
+        },
+        "airline": {
+            "name": "china airlines cargo",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "5826",
+            "iataNumber": "ci5826",
+            "icaoNumber": "cal5826"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "00:45"
+        },
+        "arrival": {
+            "iataCode": "ctu",
+            "icaoCode": "zuuu",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "03:30"
+        },
+        "aircraft": {
+            "modelCode": "a306",
+            "modelText": "airbus a300f4-605r"
+        },
+        "airline": {
+            "name": "dhl",
+            "iataCode": "d0",
+            "icaoCode": "dhk"
+        },
+        "flight": {
+            "number": "720",
+            "iataNumber": "d0720",
+            "icaoNumber": "dhk720"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "11",
+            "scheduledTime": "08:50"
+        },
+        "arrival": {
+            "iataCode": "khh",
+            "icaoCode": "rckh",
+            "terminal": "i",
+            "gate": "22",
+            "scheduledTime": "10:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "432",
+            "iataNumber": "cx432",
+            "icaoNumber": "cpa432"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "6",
+            "scheduledTime": "18:30"
+        },
+        "arrival": {
+            "iataCode": "ctu",
+            "icaoCode": "zuuu",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "21:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "sichuan airlines",
+            "iataCode": "3u",
+            "icaoCode": "csc"
+        },
+        "flight": {
+            "number": "3960",
+            "iataNumber": "3u3960",
+            "icaoNumber": "csc3960"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "10",
+            "scheduledTime": "17:25"
+        },
+        "arrival": {
+            "iataCode": "ctu",
+            "icaoCode": "zuuu",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:05"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "6128",
+            "iataNumber": "cx6128",
+            "icaoNumber": "cx6128"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air china",
+                "iataCode": "ca",
+                "icaoCode": "cca"
+            },
+            "flight": {
+                "number": "428",
+                "iataNumber": "ca428",
+                "icaoNumber": "cca428"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "10",
+            "scheduledTime": "17:25"
+        },
+        "arrival": {
+            "iataCode": "ctu",
+            "icaoCode": "zuuu",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "20:05"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "air china",
+            "iataCode": "ca",
+            "icaoCode": "cca"
+        },
+        "flight": {
+            "number": "428",
+            "iataNumber": "ca428",
+            "icaoNumber": "cca428"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "68",
+            "scheduledTime": "17:45"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "a1",
+            "scheduledTime": "19:30"
+        },
+        "aircraft": {
+            "modelCode": "a21n",
+            "modelText": "airbus a321-271nx"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "916",
+            "iataNumber": "ci916",
+            "icaoNumber": "cal916"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:00"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "13:20"
+        },
+        "aircraft": {
+            "modelCode": "",
+            "modelText": ""
+        },
+        "airline": {
+            "name": "cebu pacific",
+            "iataCode": "5j",
+            "icaoCode": "ceb"
+        },
+        "flight": {
+            "number": "111",
+            "iataNumber": "5j111",
+            "icaoNumber": "ceb111"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "17:30"
+        },
+        "arrival": {
+            "iataCode": "bwn",
+            "icaoCode": "wbsb",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "20:35"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-251n"
+        },
+        "airline": {
+            "name": "royal brunei airlines",
+            "iataCode": "bi",
+            "icaoCode": "rba"
+        },
+        "flight": {
+            "number": "636",
+            "iataNumber": "bi636",
+            "icaoNumber": "rba636"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "17:45"
+        },
+        "arrival": {
+            "iataCode": "lej",
+            "icaoCode": "eddp",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:45"
+        },
+        "aircraft": {
+            "modelCode": "b77l",
+            "modelText": "boeing 777-fzn"
+        },
+        "airline": {
+            "name": "aerologic",
+            "iataCode": "3s",
+            "icaoCode": "box"
+        },
+        "flight": {
+            "number": "519",
+            "iataNumber": "3s519",
+            "icaoNumber": "box519"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "b5",
+            "scheduledTime": "13:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5110",
+            "iataNumber": "cx5110",
+            "icaoNumber": "cx5110"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "110",
+                "iataNumber": "uo110",
+                "icaoNumber": "hke110"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "b5",
+            "scheduledTime": "13:40"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "110",
+            "iataNumber": "uo110",
+            "icaoNumber": "hke110"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "arrival": {
+            "iataCode": "yvr",
+            "icaoCode": "cyvr",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "05:50"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-333(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tg",
+            "icaoCode": "tg"
+        },
+        "flight": {
+            "number": "5866",
+            "iataNumber": "tg5866",
+            "icaoNumber": "tg5866"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "air canada",
+                "iataCode": "ac",
+                "icaoCode": "aca"
+            },
+            "flight": {
+                "number": "8",
+                "iataNumber": "ac8",
+                "icaoNumber": "aca8"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:15"
+        },
+        "arrival": {
+            "iataCode": "yvr",
+            "icaoCode": "cyvr",
+            "terminal": "m",
+            "gate": "",
+            "scheduledTime": "05:50"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-333(er)"
+        },
+        "airline": {
+            "name": "air canada",
+            "iataCode": "ac",
+            "icaoCode": "aca"
+        },
+        "flight": {
+            "number": "8",
+            "iataNumber": "ac8",
+            "icaoNumber": "aca8"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:25"
+        },
+        "arrival": {
+            "iataCode": "anc",
+            "icaoCode": "panc",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:37"
+        },
+        "aircraft": {
+            "modelCode": "b748",
+            "modelText": "boeing 747-87uf"
+        },
+        "airline": {
+            "name": "atlas air",
+            "iataCode": "5y",
+            "icaoCode": "gti"
+        },
+        "flight": {
+            "number": "8030",
+            "iataNumber": "5y8030",
+            "icaoNumber": "gti8030"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "10",
+            "scheduledTime": "19:10"
+        },
+        "arrival": {
+            "iataCode": "nkg",
+            "icaoCode": "zsnj",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "21:40"
+        },
+        "aircraft": {
+            "modelCode": "a321",
+            "modelText": "airbus a321-211"
+        },
+        "airline": {
+            "name": "china eastern airlines",
+            "iataCode": "mu",
+            "icaoCode": "ces"
+        },
+        "flight": {
+            "number": "766",
+            "iataNumber": "mu766",
+            "icaoNumber": "ces766"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "12:40"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "hx",
+            "icaoCode": "hx"
+        },
+        "flight": {
+            "number": "1953",
+            "iataNumber": "hx1953",
+            "icaoNumber": "hx1953"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "garuda indonesia",
+                "iataCode": "ga",
+                "icaoCode": "gia"
+            },
+            "flight": {
+                "number": "873",
+                "iataNumber": "ga873",
+                "icaoNumber": "gia873"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:00"
+        },
+        "arrival": {
+            "iataCode": "cgk",
+            "icaoCode": "wiii",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "12:40"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "garuda indonesia",
+            "iataCode": "ga",
+            "icaoCode": "gia"
+        },
+        "flight": {
+            "number": "873",
+            "iataNumber": "ga873",
+            "icaoNumber": "gia873"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "k",
+            "scheduledTime": "12:10"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:10"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tk",
+            "icaoCode": "tk"
+        },
+        "flight": {
+            "number": "9221",
+            "iataNumber": "tk9221",
+            "icaoNumber": "tk9221"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hong kong airlines",
+                "iataCode": "hx",
+                "icaoCode": "crk"
+            },
+            "flight": {
+                "number": "775",
+                "iataNumber": "hx775",
+                "icaoNumber": "crk775"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "k",
+            "scheduledTime": "12:10"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "14:10"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-214"
+        },
+        "airline": {
+            "name": "hong kong airlines",
+            "iataCode": "hx",
+            "icaoCode": "crk"
+        },
+        "flight": {
+            "number": "775",
+            "iataNumber": "hx775",
+            "icaoNumber": "crk775"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:20"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "73",
+            "scheduledTime": "21:20"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "jl",
+            "icaoCode": "jl"
+        },
+        "flight": {
+            "number": "7048",
+            "iataNumber": "jl7048",
+            "icaoNumber": "jl7048"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "500",
+                "iataNumber": "cx500",
+                "icaoNumber": "cpa500"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:20"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "73",
+            "scheduledTime": "21:20"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "500",
+            "iataNumber": "cx500",
+            "icaoNumber": "cpa500"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "6322",
+            "iataNumber": "cx6322",
+            "icaoNumber": "cx6322"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "736",
+                "iataNumber": "jl736",
+                "icaoNumber": "jal736"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ha",
+            "icaoCode": "ha"
+        },
+        "flight": {
+            "number": "5382",
+            "iataNumber": "ha5382",
+            "icaoNumber": "ha5382"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "736",
+                "iataNumber": "jl736",
+                "icaoNumber": "jal736"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "mh",
+            "icaoCode": "mh"
+        },
+        "flight": {
+            "number": "9120",
+            "iataNumber": "mh9120",
+            "icaoNumber": "mh9120"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "736",
+                "iataNumber": "jl736",
+                "icaoNumber": "jal736"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tn",
+            "icaoCode": "tn"
+        },
+        "flight": {
+            "number": "1901",
+            "iataNumber": "tn1901",
+            "icaoNumber": "tn1901"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "736",
+                "iataNumber": "jl736",
+                "icaoNumber": "jal736"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "8418",
+            "iataNumber": "aa8418",
+            "icaoNumber": "aa8418"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "736",
+                "iataNumber": "jl736",
+                "icaoNumber": "jal736"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "27",
+            "scheduledTime": "01:30"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "61",
+            "scheduledTime": "06:35"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "japan airlines",
+            "iataCode": "jl",
+            "icaoCode": "jal"
+        },
+        "flight": {
+            "number": "736",
+            "iataNumber": "jl736",
+            "icaoNumber": "jal736"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:35"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "14",
+            "scheduledTime": "21:05"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "jl",
+            "icaoCode": "jl"
+        },
+        "flight": {
+            "number": "7056",
+            "iataNumber": "jl7056",
+            "icaoNumber": "jl7056"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "502",
+                "iataNumber": "cx502",
+                "icaoNumber": "cpa502"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:35"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "14",
+            "scheduledTime": "21:05"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "5808",
+            "iataNumber": "qr5808",
+            "icaoNumber": "qr5808"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "502",
+                "iataNumber": "cx502",
+                "icaoNumber": "cpa502"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "16:35"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "14",
+            "scheduledTime": "21:05"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "502",
+            "iataNumber": "cx502",
+            "icaoNumber": "cpa502"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "48",
+            "scheduledTime": "20:35"
+        },
+        "arrival": {
+            "iataCode": "blr",
+            "icaoCode": "vobl",
+            "terminal": "1",
+            "gate": "40",
+            "scheduledTime": "00:30"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "623",
+            "iataNumber": "cx623",
+            "icaoNumber": "cpa623"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "15:35"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "20:25"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ha",
+            "icaoCode": "ha"
+        },
+        "flight": {
+            "number": "5000",
+            "iataNumber": "ha5000",
+            "icaoNumber": "ha5000"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "26",
+                "iataNumber": "jl26",
+                "icaoNumber": "jal26"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "15:35"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "20:25"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "6320",
+            "iataNumber": "cx6320",
+            "icaoNumber": "cx6320"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "japan airlines",
+                "iataCode": "jl",
+                "icaoCode": "jal"
+            },
+            "flight": {
+                "number": "26",
+                "iataNumber": "jl26",
+                "icaoNumber": "jal26"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "25",
+            "scheduledTime": "15:35"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "20:25"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "japan airlines",
+            "iataCode": "jl",
+            "icaoCode": "jal"
+        },
+        "flight": {
+            "number": "26",
+            "iataNumber": "jl26",
+            "icaoNumber": "jal26"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "02:20"
+        },
+        "arrival": {
+            "iataCode": "tpe",
+            "icaoCode": "rctp",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "04:00"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-302"
+        },
+        "airline": {
+            "name": "china airlines",
+            "iataCode": "ci",
+            "icaoCode": "cal"
+        },
+        "flight": {
+            "number": "618",
+            "iataNumber": "ci618",
+            "icaoNumber": "cal618"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "29",
+            "scheduledTime": "09:15"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:30"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "hong kong airlines",
+            "iataCode": "hx",
+            "icaoCode": "crk"
+        },
+        "flight": {
+            "number": "608",
+            "iataNumber": "hx608",
+            "icaoNumber": "crk608"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "18",
+            "scheduledTime": "09:50"
+        },
+        "arrival": {
+            "iataCode": "ngo",
+            "icaoCode": "rjgg",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:20"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5680",
+            "iataNumber": "cx5680",
+            "icaoNumber": "cx5680"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "680",
+                "iataNumber": "uo680",
+                "icaoNumber": "hke680"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "18",
+            "scheduledTime": "09:50"
+        },
+        "arrival": {
+            "iataCode": "ngo",
+            "icaoCode": "rjgg",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "14:20"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "680",
+            "iataNumber": "uo680",
+            "icaoNumber": "hke680"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:55"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "1",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5686",
+            "iataNumber": "cx5686",
+            "icaoNumber": "cx5686"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "686",
+                "iataNumber": "uo686",
+                "icaoNumber": "hke686"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:55"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "1",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "686",
+            "iataNumber": "uo686",
+            "icaoNumber": "hke686"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "48",
+            "scheduledTime": "09:20"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "46",
+            "scheduledTime": "13:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "aa",
+            "icaoCode": "aa"
+        },
+        "flight": {
+            "number": "8887",
+            "iataNumber": "aa8887",
+            "icaoNumber": "aa8887"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "410",
+                "iataNumber": "cx410",
+                "icaoNumber": "cpa410"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "48",
+            "scheduledTime": "09:20"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "46",
+            "scheduledTime": "13:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qf",
+            "icaoCode": "qf"
+        },
+        "flight": {
+            "number": "8223",
+            "iataNumber": "qf8223",
+            "icaoNumber": "qf8223"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "410",
+                "iataNumber": "cx410",
+                "icaoNumber": "cpa410"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "48",
+            "scheduledTime": "09:20"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "1",
+            "gate": "46",
+            "scheduledTime": "13:55"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "410",
+            "iataNumber": "cx410",
+            "icaoNumber": "cpa410"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:20"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "14:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5848",
+            "iataNumber": "cx5848",
+            "icaoNumber": "cx5848"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "848",
+                "iataNumber": "uo848",
+                "icaoNumber": "hke848"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "09:20"
+        },
+        "arrival": {
+            "iataCode": "nrt",
+            "icaoCode": "rjaa",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "14:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "848",
+            "iataNumber": "uo848",
+            "icaoNumber": "hke848"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "17",
+            "scheduledTime": "11:00"
+        },
+        "arrival": {
+            "iataCode": "fuk",
+            "icaoCode": "rjff",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "15:10"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5668",
+            "iataNumber": "cx5668",
+            "icaoNumber": "cx5668"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "668",
+                "iataNumber": "uo668",
+                "icaoNumber": "hke668"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "17",
+            "scheduledTime": "11:00"
+        },
+        "arrival": {
+            "iataCode": "fuk",
+            "icaoCode": "rjff",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "15:10"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "668",
+            "iataNumber": "uo668",
+            "icaoNumber": "hke668"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "19",
+            "scheduledTime": "15:20"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "4",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5780",
+            "iataNumber": "cx5780",
+            "icaoNumber": "cx5780"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "780",
+                "iataNumber": "uo780",
+                "icaoNumber": "hke780"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "19",
+            "scheduledTime": "15:20"
+        },
+        "arrival": {
+            "iataCode": "sin",
+            "icaoCode": "wsss",
+            "terminal": "4",
+            "gate": "",
+            "scheduledTime": "19:10"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "780",
+            "iataNumber": "uo780",
+            "icaoNumber": "hke780"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "19",
+            "scheduledTime": "17:15"
+        },
+        "arrival": {
+            "iataCode": "khh",
+            "icaoCode": "rckh",
+            "terminal": "i",
+            "gate": "25",
+            "scheduledTime": "18:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5134",
+            "iataNumber": "cx5134",
+            "icaoNumber": "cx5134"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "134",
+                "iataNumber": "uo134",
+                "icaoNumber": "hke134"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "19",
+            "scheduledTime": "17:15"
+        },
+        "arrival": {
+            "iataCode": "khh",
+            "icaoCode": "rckh",
+            "terminal": "i",
+            "gate": "25",
+            "scheduledTime": "18:45"
+        },
+        "aircraft": {
+            "modelCode": "a320",
+            "modelText": "airbus a320-232"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "134",
+            "iataNumber": "uo134",
+            "icaoNumber": "hke134"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ay",
+            "icaoCode": "ay"
+        },
+        "flight": {
+            "number": "5101",
+            "iataNumber": "ay5101",
+            "icaoNumber": "ay5101"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ba",
+            "icaoCode": "ba"
+        },
+        "flight": {
+            "number": "4551",
+            "iataNumber": "ba4551",
+            "icaoNumber": "ba4551"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "la",
+            "icaoCode": "la"
+        },
+        "flight": {
+            "number": "5633",
+            "iataNumber": "la5633",
+            "icaoNumber": "la5633"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "lh",
+            "icaoCode": "lh"
+        },
+        "flight": {
+            "number": "7021",
+            "iataNumber": "lh7021",
+            "icaoNumber": "lh7021"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "lx",
+            "icaoCode": "lx"
+        },
+        "flight": {
+            "number": "9521",
+            "iataNumber": "lx9521",
+            "icaoNumber": "lx9521"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "nz",
+            "icaoCode": "nz"
+        },
+        "flight": {
+            "number": "4994",
+            "iataNumber": "nz4994",
+            "icaoNumber": "nz4994"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "qr",
+            "icaoCode": "qr"
+        },
+        "flight": {
+            "number": "3475",
+            "iataNumber": "qr3475",
+            "icaoNumber": "qr3475"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "113",
+                "iataNumber": "cx113",
+                "icaoNumber": "cpa113"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "69",
+            "scheduledTime": "21:25"
+        },
+        "arrival": {
+            "iataCode": "akl",
+            "icaoCode": "nzaa",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a35k",
+            "modelText": "airbus a350-1041"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "113",
+            "iataNumber": "cx113",
+            "icaoNumber": "cpa113"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "23",
+            "scheduledTime": "21:35"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "tk",
+            "icaoCode": "tk"
+        },
+        "flight": {
+            "number": "9223",
+            "iataNumber": "tk9223",
+            "icaoNumber": "tk9223"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hong kong airlines",
+                "iataCode": "hx",
+                "icaoCode": "crk"
+            },
+            "flight": {
+                "number": "779",
+                "iataNumber": "hx779",
+                "icaoNumber": "crk779"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "23",
+            "scheduledTime": "21:35"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "23:10"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "hong kong airlines",
+            "iataCode": "hx",
+            "icaoCode": "crk"
+        },
+        "flight": {
+            "number": "779",
+            "iataNumber": "hx779",
+            "icaoNumber": "crk779"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:55"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "05:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "dl",
+            "icaoCode": "dl"
+        },
+        "flight": {
+            "number": "7916",
+            "iataNumber": "dl7916",
+            "icaoNumber": "dl7916"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "korean air",
+                "iataCode": "ke",
+                "icaoCode": "kal"
+            },
+            "flight": {
+                "number": "178",
+                "iataNumber": "ke178",
+                "icaoNumber": "kal178"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:55"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "05:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "ey",
+            "icaoCode": "ey"
+        },
+        "flight": {
+            "number": "8495",
+            "iataNumber": "ey8495",
+            "icaoNumber": "ey8495"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "korean air",
+                "iataCode": "ke",
+                "icaoCode": "kal"
+            },
+            "flight": {
+                "number": "178",
+                "iataNumber": "ke178",
+                "icaoNumber": "kal178"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "00:55"
+        },
+        "arrival": {
+            "iataCode": "icn",
+            "icaoCode": "rksi",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "05:20"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-323"
+        },
+        "airline": {
+            "name": "korean air",
+            "iataCode": "ke",
+            "icaoCode": "kal"
+        },
+        "flight": {
+            "number": "178",
+            "iataNumber": "ke178",
+            "icaoNumber": "kal178"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:35"
+        },
+        "arrival": {
+            "iataCode": "oka",
+            "icaoCode": "roah",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5820",
+            "iataNumber": "cx5820",
+            "icaoNumber": "cx5820"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "820",
+                "iataNumber": "uo820",
+                "icaoNumber": "hke820"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:35"
+        },
+        "arrival": {
+            "iataCode": "oka",
+            "icaoCode": "roah",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "11:05"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "820",
+            "iataNumber": "uo820",
+            "icaoNumber": "hke820"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:35"
+        },
+        "arrival": {
+            "iataCode": "hkt",
+            "icaoCode": "vtsp",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "10:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5724",
+            "iataNumber": "cx5724",
+            "icaoNumber": "cx5724"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "724",
+                "iataNumber": "uo724",
+                "icaoNumber": "hke724"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:35"
+        },
+        "arrival": {
+            "iataCode": "hkt",
+            "icaoCode": "vtsp",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "10:25"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "724",
+            "iataNumber": "uo724",
+            "icaoNumber": "hke724"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:40"
+        },
+        "arrival": {
+            "iataCode": "fuk",
+            "icaoCode": "rjff",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a321",
+            "modelText": "airbus a321-231"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5600",
+            "iataNumber": "cx5600",
+            "icaoNumber": "cx5600"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "600",
+                "iataNumber": "uo600",
+                "icaoNumber": "hke600"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "07:40"
+        },
+        "arrival": {
+            "iataCode": "fuk",
+            "icaoCode": "rjff",
+            "terminal": "i",
+            "gate": "",
+            "scheduledTime": "11:55"
+        },
+        "aircraft": {
+            "modelCode": "a321",
+            "modelText": "airbus a321-231"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "600",
+            "iataNumber": "uo600",
+            "icaoNumber": "hke600"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:55"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "13:45"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-367(er)"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "jl",
+            "icaoCode": "jl"
+        },
+        "flight": {
+            "number": "7030",
+            "iataNumber": "jl7030",
+            "icaoNumber": "jl7030"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "cathay pacific",
+                "iataCode": "cx",
+                "icaoCode": "cpa"
+            },
+            "flight": {
+                "number": "548",
+                "iataNumber": "cx548",
+                "icaoNumber": "cpa548"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "08:55"
+        },
+        "arrival": {
+            "iataCode": "hnd",
+            "icaoCode": "rjtt",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "13:45"
+        },
+        "aircraft": {
+            "modelCode": "b77w",
+            "modelText": "boeing 777-367(er)"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "548",
+            "iataNumber": "cx548",
+            "icaoNumber": "cpa548"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "2",
+            "scheduledTime": "16:20"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "",
+            "iataCode": "cx",
+            "icaoCode": "cx"
+        },
+        "flight": {
+            "number": "5898",
+            "iataNumber": "cx5898",
+            "icaoNumber": "cx5898"
+        },
+        "codeshared": {
+            "airline": {
+                "name": "hk express",
+                "iataCode": "uo",
+                "icaoCode": "hke"
+            },
+            "flight": {
+                "number": "898",
+                "iataNumber": "uo898",
+                "icaoNumber": "hke898"
+            }
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "11:50"
+        },
+        "arrival": {
+            "iataCode": "kix",
+            "icaoCode": "rjbb",
+            "terminal": "1",
+            "gate": "2",
+            "scheduledTime": "16:20"
+        },
+        "aircraft": {
+            "modelCode": "a20n",
+            "modelText": "airbus a320-271n"
+        },
+        "airline": {
+            "name": "hk express",
+            "iataCode": "uo",
+            "icaoCode": "hke"
+        },
+        "flight": {
+            "number": "898",
+            "iataNumber": "uo898",
+            "icaoNumber": "hke898"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "15:55"
+        },
+        "arrival": {
+            "iataCode": "mnl",
+            "icaoCode": "rpll",
+            "terminal": "1",
+            "gate": "6",
+            "scheduledTime": "18:15"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "ethiopian airlines",
+            "iataCode": "et",
+            "icaoCode": "eth"
+        },
+        "flight": {
+            "number": "644",
+            "iataNumber": "et644",
+            "icaoNumber": "eth644"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "22:05"
+        },
+        "arrival": {
+            "iataCode": "hel",
+            "icaoCode": "efhk",
+            "terminal": "2",
+            "gate": "",
+            "scheduledTime": "06:00"
+        },
+        "aircraft": {
+            "modelCode": "a359",
+            "modelText": "airbus a350-941"
+        },
+        "airline": {
+            "name": "finnair (marimekko kivet livery)",
+            "iataCode": "ay",
+            "icaoCode": "fin"
+        },
+        "flight": {
+            "number": "100",
+            "iataNumber": "ay100",
+            "icaoNumber": "fin100"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "g",
+            "scheduledTime": "08:30"
+        },
+        "arrival": {
+            "iataCode": "bkk",
+            "icaoCode": "vtbs",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "10:25"
+        },
+        "aircraft": {
+            "modelCode": "b738",
+            "modelText": "boeing 737-8jp"
+        },
+        "airline": {
+            "name": "greater bay airlines",
+            "iataCode": "hb",
+            "icaoCode": "hgb"
+        },
+        "flight": {
+            "number": "681",
+            "iataNumber": "hb681",
+            "icaoNumber": "hgb681"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:10"
+        },
+        "arrival": {
+            "iataCode": "tao",
+            "icaoCode": "zsqd",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "13:25"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "954",
+            "iataNumber": "cx954",
+            "icaoNumber": "cpa954"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "40",
+            "scheduledTime": "17:15"
+        },
+        "arrival": {
+            "iataCode": "del",
+            "icaoCode": "vidp",
+            "terminal": "3",
+            "gate": "",
+            "scheduledTime": "21:00"
+        },
+        "aircraft": {
+            "modelCode": "b788",
+            "modelText": "boeing 787-8 dreamliner"
+        },
+        "airline": {
+            "name": "air india",
+            "iataCode": "ai",
+            "icaoCode": "aic"
+        },
+        "flight": {
+            "number": "315",
+            "iataNumber": "ai315",
+            "icaoNumber": "aic315"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:35"
+        },
+        "arrival": {
+            "iataCode": "anc",
+            "icaoCode": "panc",
+            "terminal": "",
+            "gate": "",
+            "scheduledTime": "18:10"
+        },
+        "aircraft": {
+            "modelCode": "b748",
+            "modelText": "boeing 747-8r7f"
+        },
+        "airline": {
+            "name": "cargolux",
+            "iataCode": "cv",
+            "icaoCode": "clx"
+        },
+        "flight": {
+            "number": "5794",
+            "iataNumber": "cv5794",
+            "icaoNumber": "clx5794"
+        }
+    },
+    {
+        "weekday": "4",
+        "departure": {
+            "iataCode": "hkg",
+            "icaoCode": "vhhh",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "10:25"
+        },
+        "arrival": {
+            "iataCode": "nkg",
+            "icaoCode": "zsnj",
+            "terminal": "1",
+            "gate": "",
+            "scheduledTime": "13:00"
+        },
+        "aircraft": {
+            "modelCode": "a333",
+            "modelText": "airbus a330-343"
+        },
+        "airline": {
+            "name": "cathay pacific",
+            "iataCode": "cx",
+            "icaoCode": "cpa"
+        },
+        "flight": {
+            "number": "356",
+            "iataNumber": "cx356",
+            "icaoNumber": "cpa356"
+        }
+    }
+]

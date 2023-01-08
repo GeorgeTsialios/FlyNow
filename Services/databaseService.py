@@ -3,7 +3,7 @@ import sys
 
 class DatabaseService:
     def __init__(self):
-        self.conn = sqlite3.connect('Data\\FlyNowDatabase.db')
+        self.conn = sqlite3.connect('Database\\FlyNowDatabase.db')
         self.conn.execute("PRAGMA foreign_keys=ON")
 
     def close(self):

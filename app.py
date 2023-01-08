@@ -1,3 +1,4 @@
+from DatabasePreparation.databasePreparation import DatabasePreparator
 from Model.location import Location
 from Model.airport import Airport
 from Model.airline import Airline
@@ -83,4 +84,6 @@ def main():
 
 
 if __name__ == "__main__":
+    # DatabasePreparator()
+    
     main()

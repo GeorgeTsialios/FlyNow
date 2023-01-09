@@ -438,11 +438,23 @@ class DatabaseService:
         """)
     
     def savePassenger(self, passenger):
-        query = f"""
-            INSERT OR REPLACE INTO "PASSENGER" VALUES
-            ("{passenger.passenger_ID}", "{passenger.first_name}", "{passenger.last_name}", "{passenger.age}", {f'"{passenger.phone_number}"' if passenger.phone_number is not None else "NULL"}, {f'"{passenger.email}"' if passenger.email is not None else "NULL"});
+        if len(self.select(f"SELECT * FROM PASSENGER WHERE passenger_ID = '{passenger.passenger_ID}';")) > 0:
+            query = f"""
+                UPDATE PASSENGER
+                SET 
+                    first_name = "{passenger.first_name}",
+                    last_name = "{passenger.last_name}",
+                    age = "{passenger.age}",
+                    phone_number = {f'"{passenger.phone_number}"' if passenger.phone_number is not None else "NULL"},
+                    email = {f'"{passenger.email}"' if passenger.email is not None else "NULL"}
+                WHERE passenger_ID = '{passenger.passenger_ID}'
+            """
+        else:
+            query = f"""
+                INSERT INTO "PASSENGER" VALUES
+                ("{passenger.passenger_ID}", "{passenger.first_name}", "{passenger.last_name}", "{passenger.age}", {f'"{passenger.phone_number}"' if passenger.phone_number is not None else "NULL"}, {f'"{passenger.email}"' if passenger.email is not None else "NULL"});
+            """
 
-        """
         self.conn.execute(query)
         return True
 

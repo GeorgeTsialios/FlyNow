@@ -10,12 +10,14 @@ from Model.luggage import Luggage
 from Model.passenger import Passenger
 from Model.booking import Booking
 from Model.ticket import Ticket
+from HelperClasses.ticketGenerator import TicketGenerator
 import sys
 import re
 
 class NavigatorService:
     def __init__(self, app):
         self.app = app
+        self.ticketGenerator = TicketGenerator()
         self.mainMenu()
 
     def mainMenu(self):
@@ -63,8 +65,6 @@ class NavigatorService:
                         if booking is None:
                             continue
                         elif booking:
-                            print("\nYou have successfully made your booking! Opening the booking confirmation...")
-                            self.openBookingConfirmation()
                             print("\nReturning to main menu...")
                     else:
                         raise ValueError
@@ -848,7 +848,10 @@ class NavigatorService:
             paymentComplete = self.completePayment()
             
             if paymentComplete:
-                return self.app.databaseService.commitChanges()
+                self.app.databaseService.commitChanges()
+                print("You have successfully made your booking! Opening the booking confirmation...")
+                self.openBookingConfirmation(booking, passengerInfo[0])
+                return True
             else:
                 print("Payment was cancelled. Your trip is discarded. Returning to main menu...")
                 return self.app.databaseService.rollbackChanges()
@@ -1189,6 +1192,14 @@ class NavigatorService:
                     fareSelection[flight].fare_name,
                     flight.airline_code
                 )
+
+                self.ticketGenerator.addNewTicket(
+                    passenger,
+                    flight,
+                    seatSelection[flight][passenger],
+                    tickets[flight][passenger]
+                )
+
                 total_price += ticketPrice
                 cntr += 1
         booking.addToTotalPrice(total_price)
@@ -1355,8 +1366,8 @@ class NavigatorService:
         print("\nPayment complete!")
         return True
 
-    def openBookingConfirmation(self):
-        pass
+    def openBookingConfirmation(self, booking, lead_passenger):
+        self.ticketGenerator.saveFile(f'FlyNow Booking {booking.booking_code} Confirmation', lead_passenger.email, f'{lead_passenger.first_name} {lead_passenger.last_name}')
 
     def helpMenu(self):
         while True:

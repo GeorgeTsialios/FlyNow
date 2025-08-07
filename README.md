@@ -1,19 +1,29 @@
 # FlyNow
 
-Η εφαρμογή αυτή σχεδιάστηκε στα πλαίσια της ομαδικής εργασίας του μαθήματος Βάσεις Δεδομένων (ECE_ΓΚ703). Σκοπός της είναι η αναζήτηση πτήσεων και κράτηση αεροπορικών εισιτηρίων με τρόπο φιλικό προς τον χρήστη.
+**FlyNow** is a user-friendly flight search and ticket booking application, developed as part of the group project for the *Databases* course (ECE_ΓΚ703).
 
-## Dependencies και εκτέλεση εφαρμογής
+## Dependencies & Running the Application
 
-Για την εκτέλεση της εφαρμογής, απαιτούνται τα ακόλουθα:
+To run the application, ensure the following:
 
-- Να υπάρχει κατεβασμένη η βιβλιοθήκη `pytz`.
-- Να υπάρχει κατεβασμένη η εφαρμογή GTK3 και η βιβλιοθήκη `weasyprint`. Συμβουλευτείτε το [official documentation της Weasyprint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation) για οδηγίες εγκατάστασης.
-- Να βρίσκονται στο ίδιο directory οι φάκελοι `Database`, `HelperClasses`, `Model`, `Services` και το αρχείο πηγαίου κώδικα `app.py`, το οποίο αποτελεί το σημείο έναρξης του προγράμματος.
+- The `pytz` library is installed.
+- GTK3 and the `weasyprint` library are installed. For setup instructions, refer to the [official WeasyPrint documentation](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation).
+- The following folders must be located in the same directory as the main script `app.py`, which serves as the program’s entry point:
+  - `Database`
+  - `HelperClasses`
+  - `Model`
+  - `Services`
 
 ---
 
-**Ομάδα 50**
+## Supporting Files
 
-**Χρήστος Κατσανδρής**
+Additional resources and documentation can be found in:
 
-**Γεώργιος Τσιάλιος**
+- `Report_Greek.pdf`: A detailed report in Greek describing the development process and providing a usage example.
+- `Presentation_Greek.pdf`: A Greek presentation showcasing the application's features and design.
+- `Presentation_English.pptx`: An English presentation demonstrating the application's functionality and structure.
+
+**Team 50**  
+**Christos Katsandris**  
+**George Tsialios**

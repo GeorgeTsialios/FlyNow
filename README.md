@@ -22,8 +22,6 @@ To run the application, ensure the following:
 
   - `Services`
 
----
-
 <br/>
 
 ## Supporting Files
@@ -37,6 +35,8 @@ Additional resources and documentation can be found in:
 - `Presentation_English.pptx`: An English presentation demonstrating the application's functionality and structure.
 
 <br/>
+
+---
 
 <br/>
 

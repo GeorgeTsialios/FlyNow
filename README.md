@@ -1,6 +1,6 @@
 # FlyNow
 
-**FlyNow** is a user-friendly flight search and ticket booking application, developed as part of the group project for the *Databases* course (ECE_ΓΚ703).
+**FlyNow** is a user-friendly flight search and ticket booking application, developed as part of the group project for the *Databases* course of the 7th semester of studies in the Electrical and Computer Engineering Department at the University of Patras.
 
 <br/>
 

@@ -30,7 +30,7 @@ Additional resources and documentation can be found in:
 
 - [Project Report (PDF, in Greek)](https://github.com/GeorgeTsialios/FlyNow/blob/master/Report_Greek.pdf): a detailed report in Greek describing the development process and providing a usage example.
 
-- [Project Presentation (PPTX, in Greek)](https://github.com/GeorgeTsialios/FlyNow/blob/master/Presentation_Greek.pptx): a Greek presentation showcasing the application's features and design.
+- [Project Presentation (PDF, in Greek)](https://github.com/GeorgeTsialios/FlyNow/blob/master/Presentation_Greek.pdf): a Greek presentation showcasing the application's features and design.
 
 - [Project Presentation (PPTX, in English)](https://github.com/GeorgeTsialios/FlyNow/blob/master/Presentation_English.pptx): an English presentation demonstrating the application's functionality and structure.
 
